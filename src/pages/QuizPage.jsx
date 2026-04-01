@@ -54,6 +54,22 @@ function QuizPage() {
       .replace(/\bTeion\b/gi, 'Teórica')
       .replace(/\bp\/\b/gi, 'para')
       .replace(/\bc\/\b/gi, 'com')
+      .replace(/\bAsnao/gi, 'As ')
+      .replace(/\basnao/gi, 'as ')
+      .replace(/\bcnao/gi, 'co')
+      .replace(/\bnaou\b/gi, ' ou ')
+      .replace(/\bnaos\b/gi, 'nos')
+      .replace(/\bverdadeiranaou\b/gi, 'verdadeira ou')
+      .replace(/\bfalsanaou\b/gi, 'falsa ou')
+      .replace(/\bentrenaos\b/gi, 'entre os')
+      .replace(/\bdentrenaos\b/gi, 'dentre os')
+      .replace(/\bapresentanaos\b/gi, 'apresenta os')
+      .replace(/\bladonaonde\b/gi, 'lado onde')
+      .replace(/\bformanaoriginal\b/gi, 'forma original')
+      .replace(/\bnao([a-zA-Z])/g, 'nao $1')
+      .replace(/([a-zA-Z])nao\b/g, '$1 nao')
+      .replace(/\s{2,}/g, ' ')
+      .trim()
   }
 
   function toggleVisualOption(option) {
@@ -241,57 +257,51 @@ function QuizPage() {
               ))}
             </div>
           )}
-          {isTrainingMode && answered && isVisualQuestion && question.gabaritoImageUrl ? (
-            <div className="gabarito-frame">
-              <p><strong>Gabarito visual:</strong></p>
-              <div className="gabarito-image">
-                <img
-                  src={question.gabaritoImageUrl}
-                  alt={`Gabarito ${question.title}`}
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          ) : null}
           {isTrainingMode && answered ? (
-            <div className={`feedback-box ${isAnswerCorrect ? 'ok' : 'error'}`}>
-              <strong>
-                {isAnswerCorrect ? 'Resposta correta.' : 'Resposta incorreta.'}
-              </strong>
-              {isVisualQuestion ? (
-                <>
-                  <div className="feedback-list">
-                    <p><strong>Você marcou:</strong></p>
-                    <ul>
-                      {selectedOptions.map((item) => (
-                        <li key={`sel-${item}`}>{normalizeDisplayText(item)}</li>
-                      ))}
-                    </ul>
+            <>
+              {isVisualQuestion && question.gabaritoImageUrl ? (
+                <div className="gabarito-frame">
+                  <p><strong>Gabarito visual:</strong></p>
+                  <div className="gabarito-image">
+                    <img
+                      src={question.gabaritoImageUrl}
+                      alt={`Gabarito ${question.title}`}
+                      loading="lazy"
+                    />
                   </div>
-                  <div className="feedback-list">
-                    <p><strong>Correto seria:</strong></p>
-                    <ul>
-                      {(question.answerKey || []).map((entry) => (
-                        <li key={`cor-${entry.number}-${entry.label}`}>
-                          {entry.number}. {normalizeDisplayText(entry.label)}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <p>{question.explanation}</p>
-                </>
-              ) : (
-                <p>{question.explanation}</p>
-              )}
-            </div>
-          ) : null}
-          {isTrainingMode && answered && !isVisualQuestion ? (
-            <div className={`feedback-box ${isAnswerCorrect ? 'ok' : 'error'}`}>
-              <strong>
-                {isAnswerCorrect ? 'Resposta correta.' : 'Resposta incorreta.'}
-              </strong>
-              <p>{question.explanation}</p>
-            </div>
+                </div>
+              ) : null}
+              <div className={`feedback-box ${isAnswerCorrect ? 'ok' : 'error'}`}>
+                <strong>
+                  {isAnswerCorrect ? 'Resposta correta.' : 'Resposta incorreta.'}
+                </strong>
+                {isVisualQuestion ? (
+                  <>
+                    <div className="feedback-list">
+                      <p><strong>Você marcou:</strong></p>
+                      <ul>
+                        {selectedOptions.map((item) => (
+                          <li key={`sel-${item}`}>{normalizeDisplayText(item)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="feedback-list">
+                      <p><strong>Correto seria:</strong></p>
+                      <ul>
+                        {(question.answerKey || []).map((entry) => (
+                          <li key={`cor-${entry.number}-${entry.label}`}>
+                            {entry.number}. {normalizeDisplayText(entry.label)}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <p>{normalizeDisplayText(question.explanation)}</p>
+                  </>
+                ) : (
+                  <p>{normalizeDisplayText(question.explanation)}</p>
+                )}
+              </div>
+            </>
           ) : null}
         </article>
 
