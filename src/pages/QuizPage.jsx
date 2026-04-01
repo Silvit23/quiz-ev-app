@@ -72,6 +72,25 @@ function QuizPage() {
       .trim()
   }
 
+  function formatQuestionBlocks(text) {
+    const content = normalizeDisplayText(text)
+    const listMatch = content.match(/^(.*?)(\b1\s*[–-]\s*.+)$/)
+    if (!listMatch) {
+      return { intro: content, items: [] }
+    }
+
+    const intro = listMatch[1].trim()
+    const listPart = listMatch[2]
+    const items = []
+    const regex = /(\d+)\s*[–-]\s*([^]+?)(?=(\d+\s*[–-]\s*)|$)/g
+    let match
+    while ((match = regex.exec(listPart))) {
+      items.push({ number: match[1], text: match[2].trim() })
+    }
+
+    return { intro, items }
+  }
+
   function toggleVisualOption(option) {
     if (answered) return
     setSelectedOptions((prev) =>
@@ -189,6 +208,8 @@ function QuizPage() {
     : Boolean(selectedAlternativeId && !answered)
   const canProceed = answered
 
+  const formattedStatement = formatQuestionBlocks(question.statement)
+
   return (
     <main className="page-shell">
       <TopBar
@@ -201,7 +222,21 @@ function QuizPage() {
         <ProgressBar current={currentIndex + 1} total={totalQuestions} />
 
         <article className="question-card">
-          <h2>{normalizeDisplayText(question.statement)}</h2>
+          {question.structureStatus === 'inconsistent' ? (
+            <p className="question-warning">Questão com estrutura inconsistente.</p>
+          ) : null}
+          <div className="question-text">
+            {formattedStatement.intro ? <p>{formattedStatement.intro}</p> : null}
+            {formattedStatement.items.length > 0 ? (
+              <ol className="question-list">
+                {formattedStatement.items.map((item) => (
+                  <li key={`${item.number}-${item.text}`}>
+                    <strong>{item.number}.</strong> {item.text}
+                  </li>
+                ))}
+              </ol>
+            ) : null}
+          </div>
           {isVisualQuestion ? (
             <>
               <p className="photo-label">{question.title}</p>

@@ -264,6 +264,31 @@ a {
   padding: 2px 0;
 }
 
+.question-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.question-text p {
+  margin: 0 0 10px;
+}
+
+.question-list {
+  margin: 0 0 10px 18px;
+  padding: 0;
+  color: var(--text);
+}
+
+.question-list li {
+  margin-bottom: 6px;
+}
+
+.question-warning {
+  color: var(--danger);
+  font-weight: 700;
+  margin: 0 0 8px;
+}
 .photo-label {
   margin: 8px 0 0;
   color: var(--text-soft);

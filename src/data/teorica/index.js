@@ -6,7 +6,14 @@ function extractNumberFromText(text) {
 }
 
 function normalizeText(text) {
-  return String(text || '')
+  let value = String(text || '')
+
+  value = value.replace(/\r/g, '')
+  value = value.replace(/-\n\s*/g, '')
+  value = value.replace(/\n+/g, ' ')
+  value = value.replace(/[ \t]+/g, ' ')
+
+  value = value
     .replace(/\bTeion\b/gi, 'Teórica')
     .replace(/\bp\/\b/gi, 'para')
     .replace(/\bc\/\b/gi, 'com')
@@ -15,11 +22,11 @@ function normalizeText(text) {
     .replace(/\bs\s+ubaqu/gi, 'subaqu')
     .replace(/\bcl\s+assificar/gi, 'classificar')
     .replace(/\bnã\s+o/gi, 'nao')
-    .replace(/\bnaou\b/gi, ' ou ')
-    .replace(/\bnaos\b/gi, 'nos')
     .replace(/\bAsnao/gi, 'As ')
     .replace(/\basnao/gi, 'as ')
     .replace(/\bcnao/gi, 'co')
+    .replace(/\bnaou\b/gi, ' ou ')
+    .replace(/\bnaos\b/gi, 'nos')
     .replace(/\bverdadeiranaou\b/gi, 'verdadeira ou')
     .replace(/\bfalsanaou\b/gi, 'falsa ou')
     .replace(/\bentrenaos\b/gi, 'entre os')
@@ -32,8 +39,10 @@ function normalizeText(text) {
     .replace(/\bnaocorr(ê|e)ncia\b/gi, 'ocorrencia')
     .replace(/\bnao([a-zA-Z])/g, 'nao $1')
     .replace(/([a-zA-Z])nao\b/g, '$1 nao')
-    .replace(/\s{2,}/g, ' ')
-    .trim()
+
+  value = value.replace(/\s{2,}/g, ' ').trim()
+
+  return value
 }
 
 function normalizeExplanation(text) {
@@ -66,30 +75,67 @@ function normalizeExplanation(text) {
   return cleaned
 }
 
+function splitAlternativesText(rawText) {
+  const text = normalizeText(rawText)
+  const matches = [...text.matchAll(/([A-E])\)\s*/g)]
+  if (matches.length < 2) return null
+
+  const parts = []
+  for (let i = 0; i < matches.length; i += 1) {
+    const current = matches[i]
+    const next = matches[i + 1]
+    const id = current[1]
+    const start = current.index + current[0].length
+    const end = next ? next.index : text.length
+    const value = text.slice(start, end).trim()
+    if (value) {
+      parts.push({ id, text: value })
+    }
+  }
+
+  return parts.length ? parts : null
+}
+
 function normalizeAlternatives(question) {
   const alternativesSource = question.alternatives || question.alternativas || []
+  const normalized = []
 
   if (Array.isArray(alternativesSource)) {
-    return alternativesSource.map((alternative, index) => {
+    alternativesSource.forEach((alternative, index) => {
       if (typeof alternative === 'string') {
-        return { id: String.fromCharCode(65 + index), text: normalizeText(alternative) }
+        const split = splitAlternativesText(alternative)
+        if (split) {
+          split.forEach((item) => normalized.push({ id: item.id, text: item.text }))
+        } else {
+          normalized.push({ id: String.fromCharCode(65 + normalized.length), text: normalizeText(alternative) })
+        }
+        return
       }
 
-      return {
-        id: String(alternative.id || String.fromCharCode(65 + index)).toUpperCase(),
-        text: normalizeText(alternative.text || alternative.texto || ''),
+      const rawText = alternative.text || alternative.texto || ''
+      const split = splitAlternativesText(rawText)
+      if (split) {
+        split.forEach((item) => normalized.push({ id: item.id, text: item.text }))
+        return
+      }
+
+      normalized.push({
+        id: String(alternative.id || String.fromCharCode(65 + normalized.length)).toUpperCase(),
+        text: normalizeText(rawText),
+      })
+    })
+  } else if (alternativesSource && typeof alternativesSource === 'object') {
+    Object.entries(alternativesSource).forEach(([id, text]) => {
+      const split = splitAlternativesText(text)
+      if (split) {
+        split.forEach((item) => normalized.push({ id: item.id, text: item.text }))
+      } else {
+        normalized.push({ id: String(id).toUpperCase(), text: normalizeText(text) })
       }
     })
   }
 
-  if (alternativesSource && typeof alternativesSource === 'object') {
-    return Object.entries(alternativesSource).map(([id, text]) => ({
-      id: String(id).toUpperCase(),
-      text: normalizeText(text),
-    }))
-  }
-
-  return []
+  return normalized
 }
 
 function getQuestionsFromExportValue(value) {
@@ -127,11 +173,27 @@ function toExamId(title, fallbackIndex) {
   return `teorica-prova-${String(fallbackIndex + 1).padStart(2, '0')}`
 }
 
+function validateParsedQuestion(question) {
+  const issues = []
+
+  if (!question.statement) issues.push('statement')
+  if (!question.alternatives || question.alternatives.length < 2) issues.push('alternatives')
+
+  const ids = new Set(question.alternatives.map((alt) => alt.id))
+  if (ids.size !== question.alternatives.length) issues.push('duplicate_alternatives')
+  if (!ids.has(question.correctAlternativeId)) issues.push('correct_not_found')
+
+  return {
+    isValid: issues.length === 0,
+    issues,
+  }
+}
+
 function normalizeQuestion(question, examId, index) {
   const alternatives = normalizeAlternatives(question)
   const fallbackCorrectId = alternatives[0]?.id || 'A'
 
-  return {
+  const normalized = {
     id: String(question.id || `${examId}-q${String(index + 1).padStart(3, '0')}`),
     statement: normalizeText(question.statement || question.enunciado || ''),
     alternatives,
@@ -144,6 +206,19 @@ function normalizeQuestion(question, examId, index) {
     ).toUpperCase(),
     explanation: normalizeExplanation(question.explanation || question.explicacao || ''),
   }
+
+  const validation = validateParsedQuestion(normalized)
+  if (!validation.isValid) {
+    normalized.structureStatus = 'inconsistent'
+    normalized.structureIssues = validation.issues
+  }
+
+  if (import.meta.env.DEV) {
+    console.debug('[teorica:raw]', question)
+    console.debug('[teorica:normalized]', normalized)
+  }
+
+  return normalized
 }
 
 function buildTeoricaExams() {
