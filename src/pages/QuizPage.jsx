@@ -6,6 +6,8 @@ import ProgressBar from '../components/quiz/ProgressBar'
 import { QUIZ_MODES } from '../data/constants'
 import { getExamById, getModuleById } from '../data'
 import { appendReviewErrors } from '../utils/reviewErrorsStore'
+import { formatQuestionForDisplay } from '../presentation/QuestionFormatter'
+import { normalizeRawText } from '../text/QuestionTextNormalizer'
 
 function QuizPage() {
   const navigate = useNavigate()
@@ -48,48 +50,7 @@ function QuizPage() {
     )
   }
 
-  function normalizeDisplayText(text) {
-    if (!text) return ''
-    return String(text)
-      .replace(/\bTeion\b/gi, 'Teórica')
-      .replace(/\bp\/\b/gi, 'para')
-      .replace(/\bc\/\b/gi, 'com')
-      .replace(/\bAsnao/gi, 'As ')
-      .replace(/\basnao/gi, 'as ')
-      .replace(/\bcnao/gi, 'co')
-      .replace(/\bnaou\b/gi, ' ou ')
-      .replace(/\bnaos\b/gi, 'nos')
-      .replace(/\bverdadeiranaou\b/gi, 'verdadeira ou')
-      .replace(/\bfalsanaou\b/gi, 'falsa ou')
-      .replace(/\bentrenaos\b/gi, 'entre os')
-      .replace(/\bdentrenaos\b/gi, 'dentre os')
-      .replace(/\bapresentanaos\b/gi, 'apresenta os')
-      .replace(/\bladonaonde\b/gi, 'lado onde')
-      .replace(/\bformanaoriginal\b/gi, 'forma original')
-      .replace(/\bnao([a-zA-Z])/g, 'nao $1')
-      .replace(/([a-zA-Z])nao\b/g, '$1 nao')
-      .replace(/\s{2,}/g, ' ')
-      .trim()
-  }
-
-  function formatQuestionBlocks(text) {
-    const content = normalizeDisplayText(text)
-    const listMatch = content.match(/^(.*?)(\b1\s*[–-]\s*.+)$/)
-    if (!listMatch) {
-      return { intro: content, items: [] }
-    }
-
-    const intro = listMatch[1].trim()
-    const listPart = listMatch[2]
-    const items = []
-    const regex = /(\d+)\s*[–-]\s*([^]+?)(?=(\d+\s*[–-]\s*)|$)/g
-    let match
-    while ((match = regex.exec(listPart))) {
-      items.push({ number: match[1], text: match[2].trim() })
-    }
-
-    return { intro, items }
-  }
+  const formattedStatement = formatQuestionForDisplay(question.statement)
 
   function toggleVisualOption(option) {
     if (answered) return
@@ -208,12 +169,10 @@ function QuizPage() {
     : Boolean(selectedAlternativeId && !answered)
   const canProceed = answered
 
-  const formattedStatement = formatQuestionBlocks(question.statement)
-
   return (
     <main className="page-shell">
       <TopBar
-        title={normalizeDisplayText(moduleTitle)}
+        title={normalizeRawText(moduleTitle)}
         subtitle={`${exam.title} • Modo ${isTrainingMode ? 'Treino' : 'Prova'}`}
         showBack
       />
@@ -270,7 +229,7 @@ function QuizPage() {
                       disabled={answered}
                     >
                       <span>{isSelected ? '[x]' : '[ ]'}</span>
-                      <p>{normalizeDisplayText(option)}</p>
+                      <p>{normalizeRawText(option)}</p>
                     </button>
                   )
                 })}
@@ -287,7 +246,7 @@ function QuizPage() {
                   disabled={answered}
                 >
                   <span>{alternative.id.toUpperCase()})</span>
-                  <p>{normalizeDisplayText(alternative.text)}</p>
+                  <p>{normalizeRawText(alternative.text)}</p>
                 </button>
               ))}
             </div>
@@ -316,7 +275,7 @@ function QuizPage() {
                       <p><strong>Você marcou:</strong></p>
                       <ul>
                         {selectedOptions.map((item) => (
-                          <li key={`sel-${item}`}>{normalizeDisplayText(item)}</li>
+                          <li key={`sel-${item}`}>{normalizeRawText(item)}</li>
                         ))}
                       </ul>
                     </div>
@@ -325,15 +284,15 @@ function QuizPage() {
                       <ul>
                         {(question.answerKey || []).map((entry) => (
                           <li key={`cor-${entry.number}-${entry.label}`}>
-                            {entry.number}. {normalizeDisplayText(entry.label)}
+                            {entry.number}. {normalizeRawText(entry.label)}
                           </li>
                         ))}
                       </ul>
                     </div>
-                    <p>{normalizeDisplayText(question.explanation)}</p>
+                    <p>{normalizeRawText(question.explanation)}</p>
                   </>
                 ) : (
-                  <p>{normalizeDisplayText(question.explanation)}</p>
+                  <TrainingExplanation explanation={question.trainingExplanation} />
                 )}
               </div>
             </>
@@ -350,6 +309,32 @@ function QuizPage() {
         </div>
       </section>
     </main>
+  )
+}
+
+function TrainingExplanation({ explanation }) {
+  if (!explanation) {
+    return <p>Explicação não cadastrada.</p>
+  }
+
+  return (
+    <div className="training-explanation">
+      <p><strong>Resposta correta:</strong> {explanation.correctId}</p>
+      <p><strong>Por que está correta:</strong> {explanation.correctRationale}</p>
+      {explanation.wrongRationales?.length ? (
+        <div>
+          <p><strong>Por que as outras estão erradas:</strong></p>
+          <ul>
+            {explanation.wrongRationales.map((item) => (
+              <li key={`${item.id}-${item.text}`}>
+                {item.id}) {item.text}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+      <p><strong>Resumo para memorizar:</strong> {explanation.summary}</p>
+    </div>
   )
 }
 
