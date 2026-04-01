@@ -5,19 +5,66 @@ function extractNumberFromText(text) {
   return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER
 }
 
+function normalizeText(text) {
+  return String(text || '')
+    .replace(/\bTeion\b/gi, 'Teórica')
+    .replace(/\bp\/\b/gi, 'para')
+    .replace(/\bc\/\b/gi, 'com')
+    .replace(/\bc\s+onduz/gi, 'conduz')
+    .replace(/\br\s+elacion/gi, 'relacion')
+    .replace(/\bs\s+ubaqu/gi, 'subaqu')
+    .replace(/\bcl\s+assificar/gi, 'classificar')
+    .replace(/\bnã\s+o/gi, 'nao')
+    .replace(/\bnaou\b/gi, ' ou ')
+    .replace(/\bnaos\b/gi, 'nos')
+    .replace(/\bverdadeiranaou\b/gi, 'verdadeira ou')
+    .replace(/\bfalsanaou\b/gi, 'falsa ou')
+    .replace(/\bentrenaos\b/gi, 'entre os')
+    .replace(/\bdentrenaos\b/gi, 'dentre os')
+    .replace(/\bapresentanaos\b/gi, 'apresenta os')
+    .replace(/\bladonaonde\b/gi, 'lado onde')
+    .replace(/\bformanaoriginal\b/gi, 'forma original')
+    .replace(/\banaocorr(ê|e)ncia\b/gi, 'a ocorrencia')
+    .replace(/\bdanaocorr(ê|e)ncia\b/gi, 'da ocorrencia')
+    .replace(/\bnaocorr(ê|e)ncia\b/gi, 'ocorrencia')
+    .replace(/\bnao([a-zA-Z])/g, 'nao $1')
+    .replace(/([a-zA-Z])nao\b/g, '$1 nao')
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+}
+
+function normalizeExplanation(text) {
+  let cleaned = normalizeText(text)
+  if (!cleaned) return ''
+
+  const collapseDuplicateBlock = (value) => {
+    const trimmed = value.trim()
+    const half = Math.floor(trimmed.length / 2)
+    if (half > 0 && trimmed.length % 2 === 0) {
+      const first = trimmed.slice(0, half)
+      const second = trimmed.slice(half)
+      if (first === second) return first.trim()
+    }
+    return trimmed
+  }
+
+  cleaned = collapseDuplicateBlock(cleaned)
+
+  const sentences = cleaned.split(/(?<=[.!?])\s+/)
+  if (sentences.length > 1 && sentences.length % 2 === 0) {
+    const half = sentences.length / 2
+    const firstBlock = sentences.slice(0, half).join(' ')
+    const secondBlock = sentences.slice(half).join(' ')
+    if (firstBlock === secondBlock) {
+      cleaned = firstBlock.trim()
+    }
+  }
+
+  return cleaned
+}
+
 function normalizeAlternatives(question) {
   const alternativesSource = question.alternatives || question.alternativas || []
-
-  const normalizeText = (text) =>
-    String(text || '')
-      .replace(/\bTeion\b/gi, 'Teórica')
-      .replace(/\bp\/\b/gi, 'para')
-      .replace(/\bc\/\b/gi, 'com')
-      .replace(/\bc\s+onduz/gi, 'conduz')
-      .replace(/\br\s+elacion/gi, 'relacion')
-      .replace(/\bs\s+ubaqu/gi, 'subaqu')
-      .replace(/\bcl\s+assificar/gi, 'classificar')
-      .replace(/\bnã\s+o/gi, 'nao')
 
   if (Array.isArray(alternativesSource)) {
     return alternativesSource.map((alternative, index) => {
@@ -80,16 +127,6 @@ function toExamId(title, fallbackIndex) {
 function normalizeQuestion(question, examId, index) {
   const alternatives = normalizeAlternatives(question)
   const fallbackCorrectId = alternatives[0]?.id || 'A'
-  const normalizeText = (text) =>
-    String(text || '')
-      .replace(/\bTeion\b/gi, 'Teórica')
-      .replace(/\bp\/\b/gi, 'para')
-      .replace(/\bc\/\b/gi, 'com')
-      .replace(/\bc\s+onduz/gi, 'conduz')
-      .replace(/\br\s+elacion/gi, 'relacion')
-      .replace(/\bs\s+ubaqu/gi, 'subaqu')
-      .replace(/\bcl\s+assificar/gi, 'classificar')
-      .replace(/\bnã\s+o/gi, 'nao')
 
   return {
     id: String(question.id || `${examId}-q${String(index + 1).padStart(3, '0')}`),
@@ -102,7 +139,7 @@ function normalizeQuestion(question, examId, index) {
         question.correta ||
         fallbackCorrectId,
     ).toUpperCase(),
-    explanation: String(question.explanation || question.explicacao || ''),
+    explanation: normalizeExplanation(question.explanation || question.explicacao || ''),
   }
 }
 
