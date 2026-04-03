@@ -6,15 +6,15 @@ export const prova06 = [
     "numero": 1,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Indique qual dos tipos citados abaixo, énao que melhor caracteriza a corrosão\nsofrida por um anodo de sacrifício, utilizado na proteção catódica de uma\nestrutura submersa em água salgada:",
+    "enunciado": "Indique qual dos tipos citados abaixo é o que melhor caracteriza a corrosão sofrida por um ânodo de sacrifício, utilizado na proteção catódica de uma estrutura submersa em água salgada:",
     "alternativas": {
       "A": "Corrosão intergranular.",
-      "B": "Corrosão por eletrolise.",
+      "B": "Corrosão por eletrólise.",
       "C": "Corrosão por microrganismos.",
       "D": "Corrosão galvânica."
     },
     "correta": "D",
-    "explicacao": "A alternativa D e a correta, pois a classificacao correta considera forma e distribuicao da corrosao, como uniforme, alveolar e pitiforme. Conceito central: classificacao de corrosao. No contexto desta questao, o termo-chave e \"Corrosão galvânica.\".",
+    "explicacao": "A alternativa D é a correta, pois a classificação correta considera forma e distribuição da corrosão, como uniforme, alveolar e pitiforme. Conceito central: classificação de corrosão. No contexto desta questão, o termo-chave é \"Corrosão galvânica.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -25,7 +25,7 @@ export const prova06 = [
     "numero": 2,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual das alternativas não está relacionada com descontinuidades detectadas\nna raiz de soldas?",
+    "enunciado": "Qual das alternativas não está relacionada com descontinuidades detectadas na raiz de soldas?",
     "alternativas": {
       "A": "Mordedura.",
       "B": "Perfuração.",
@@ -33,7 +33,7 @@ export const prova06 = [
       "D": "Falta de fusão."
     },
     "correta": "A",
-    "explicacao": "A opcao A esta adequada porque na avaliacao de solda a terminologia correta da descontinuidade e essencial para classificar a indicacao e registrar o achado. Conceito central: inspecao visual de solda e descontinuidades. No contexto desta questao, o termo-chave e \"Mordedura.\".",
+    "explicacao": "A opção A está adequada porque na avaliação de solda a terminologia correta da descontinuidade é essencial para classificar a indicação e registrar o achado. Conceito central: inspeção visual de solda e descontinuidades. No contexto desta questão, o termo-chave é \"Mordedura.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -52,7 +52,7 @@ export const prova06 = [
       "D": "Deformações e danos mecânicos em geral na estrutura."
     },
     "correta": "C",
-    "explicacao": "Marca-se C porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Eficiência do sistema de proteção catódica.\".",
+    "explicacao": "Marca-se C porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Eficiência do sistema de proteção catódica.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -65,13 +65,13 @@ export const prova06 = [
     "tipo": "multipla_escolha",
     "enunciado": "O relatório final de inspeção é feito:",
     "alternativas": {
-      "A": "Fotografias e televisionamento dasnaocorrências",
+      "A": "Fotografias e televisionamento das ocorrências",
       "B": "Relatório escrito e croqui.",
-      "C": ". Gravação de relatório em fita VHS, CDnaou DVD",
-      "D": ". Todas as alternativas estão corretas"
+      "C": "Gravação de relatório em fita VHS, CD ou DVD",
+      "D": "Todas as alternativas estão corretas"
     },
     "correta": "D",
-    "explicacao": "A alternativa D e a correta, pois o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \". Todas as alternativas estão corretas\".",
+    "explicacao": "A alternativa D é a correta, pois o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Todas as alternativas estão corretas\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -82,7 +82,7 @@ export const prova06 = [
     "numero": 5,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Indique entrenaos métodos citados abaixo qual nãnao deve ser utilizado para a\npreparação da superfície anterior ao exame visual:",
+    "enunciado": "Indique entre os métodos citados abaixo qual não deve ser utilizado para a preparação da superfície anterior ao exame visual:",
     "alternativas": {
       "A": "Limpeza manual.",
       "B": "Jato de areia.",
@@ -90,7 +90,7 @@ export const prova06 = [
       "D": "Calafetagem."
     },
     "correta": "B",
-    "explicacao": "A opcao B esta adequada porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Jato de areia.\".",
+    "explicacao": "A opção B está adequada porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Jato de areia.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -105,11 +105,11 @@ export const prova06 = [
     "alternativas": {
       "A": "O supervisor de mergulho solicitar.",
       "B": "Quando qualquer item de inspeção da Norma for alterado.",
-      "C": "Quandonao certificado de classe terminar.",
-      "D": "Quandonao tempo de mergulho for inadequado ao trabalho."
+      "C": "Quando o certificado de classe terminar.",
+      "D": "Quando o tempo de mergulho for inadequado ao trabalho."
     },
     "correta": "B",
-    "explicacao": "Marca-se B porque o resultado da EV depende de procedimento, qualificacao e registro tecnico consistente das evidencias. Conceito central: registro e rastreabilidade da inspecao. No contexto desta questao, o termo-chave e \"Quando qualquer item de inspeção da Norma for alterado.\".",
+    "explicacao": "Marca-se B porque o resultado da EV depende de procedimento, qualificação e registro técnico consistente das evidências. Conceito central: registro e rastreabilidade da inspeção. No contexto desta questão, o termo-chave é \"Quando qualquer item de inspeção da Norma for alterado.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -120,15 +120,15 @@ export const prova06 = [
     "numero": 7,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "O profissional responsável pela geração de procedimentos de inspeção\nsubaquática, treinamentos, revisões de procedimentos e calibração dos\nequipamentos é :",
+    "enunciado": "O profissional responsável pela geração de procedimentos de inspeção subaquática, treinamentos, revisões de procedimentos e calibração dos equipamentos é:",
     "alternativas": {
       "A": "O inspetor nível 1.",
-      "B": "O inspetor Nível 3.",
-      "C": "O inspetor Nível 2.",
+      "B": "O inspetor nível 3.",
+      "C": "O inspetor nível 2.",
       "D": "O inspetor do Sequi."
     },
     "correta": "B",
-    "explicacao": "A alternativa B e a correta, pois o resultado da EV depende de procedimento, qualificacao e registro tecnico consistente das evidencias. Conceito central: registro e rastreabilidade da inspecao. No contexto desta questao, o termo-chave e \"O inspetor Nível 3.\".",
+    "explicacao": "A alternativa B é a correta, pois o resultado da EV depende de procedimento, qualificação e registro técnico consistente das evidências. Conceito central: registro e rastreabilidade da inspeção. No contexto desta questão, o termo-chave é \"O inspetor nível 3.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -139,7 +139,7 @@ export const prova06 = [
     "numero": 8,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Norma que fixa as condições exigíveis para a inspeção de mangotes\nmarítimos emnaoperação:",
+    "enunciado": "Norma que fixa as condições exigíveis para a inspeção de mangotes marítimos em operação:",
     "alternativas": {
       "A": "N 1438.",
       "B": "N 2073.",
@@ -147,7 +147,7 @@ export const prova06 = [
       "D": "N 1738."
     },
     "correta": "B",
-    "explicacao": "A opcao B esta adequada porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"N 2073.\".",
+    "explicacao": "A opção B está adequada porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"N 2073.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -158,7 +158,7 @@ export const prova06 = [
     "numero": 9,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A periodicidade das inspeções nos sistemas de transferência utilizando\nmonobóias deve ser de:",
+    "enunciado": "A periodicidade das inspeções nos sistemas de transferência utilizando monobóias deve ser de:",
     "alternativas": {
       "A": "2 meses (entre inspeções consecutivas).",
       "B": "1 mês (entre inspeções consecutivas).",
@@ -166,7 +166,7 @@ export const prova06 = [
       "D": "3 meses (entre inspeções consecutivas)."
     },
     "correta": "B",
-    "explicacao": "Marca-se B porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"1 mês (entre inspeções consecutivas).\".",
+    "explicacao": "Marca-se B porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"1 mês (entre inspeções consecutivas).\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -177,7 +177,7 @@ export const prova06 = [
     "numero": 10,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Segundo a Norma 2073 – Inspeção de Mangotes Marítimos emnaoperação,naos\ndanos mais comuns encontrados em mangotes são :",
+    "enunciado": "Segundo a Norma 2073 – Inspeção de Mangotes Marítimos em operação, os danos mais comuns encontrados em mangotes são:",
     "alternativas": {
       "A": "Abrasão, camada interna danificada e corrosão no flange.",
       "B": "Corte, dano no flange e niple e dobramento.",
@@ -185,7 +185,7 @@ export const prova06 = [
       "D": "Todas as alternativas estão corretas"
     },
     "correta": "D",
-    "explicacao": "A alternativa D e a correta, pois o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Todas as alternativas estão corretas\".",
+    "explicacao": "A alternativa D é a correta, pois o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Todas as alternativas estão corretas\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -196,7 +196,7 @@ export const prova06 = [
     "numero": 11,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Norma Petrobras que fixa as condições exigíveis para a inspeção de dutos\nrígidos submarinos:",
+    "enunciado": "Norma Petrobras que fixa as condições exigíveis para a inspeção de dutos rígidos submarinos:",
     "alternativas": {
       "A": "N 1815.",
       "B": "N 1487.",
@@ -204,7 +204,7 @@ export const prova06 = [
       "D": "N 1738."
     },
     "correta": "B",
-    "explicacao": "A opcao B esta adequada porque a apostila delimita onde a inspecao submarina se aplica e quais elementos entram no escopo de verificacao. Conceito central: campo de aplicacao da inspecao submarina. No contexto desta questao, o termo-chave e \"N 1487.\".",
+    "explicacao": "A opção B está adequada porque a apostila delimita onde a inspeção submarina se aplica e quais elementos entram no escopo de verificação. Conceito central: campo de aplicação da inspeção submarina. No contexto desta questão, o termo-chave é \"N 1487.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -215,10 +215,10 @@ export const prova06 = [
     "numero": 12,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A definição de TDP (touch down point) - Região de um duto em catenária\ncujo contato comnao leito mar inho varia em função dos movimentos da\nplataforma a que está conectado.\nA- Falso.\nB- Verdadeiro.",
+    "enunciado": "A definição de TDP (touch down point) - Região de um duto em catenária cujo contato com o leito marinho varia em função dos movimentos da plataforma a que está conectado.\nA- Falso.\nB- Verdadeiro.",
     "alternativas": {},
     "correta": "B",
-    "explicacao": "Marca-se B porque a apostila delimita onde a inspecao submarina se aplica e quais elementos entram no escopo de verificacao. Conceito central: campo de aplicacao da inspecao submarina. Nesta questao, a chave e a correspondencia com a definicao tecnica aplicada.",
+    "explicacao": "Marca-se B porque a apostila delimita onde a inspeção submarina se aplica e quais elementos entram no escopo de verificação. Conceito central: campo de aplicação da inspeção submarina. Nesta questão, a chave é a correspondência com a definição técnica aplicada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -229,10 +229,10 @@ export const prova06 = [
     "numero": 13,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Riser é trecho de duto que interliganao trecho assentado no leito marinho ao\ntrecho instalado na plataforma.\nA- Falso.\nB- Verdadeiro.",
+    "enunciado": "Riser é trecho de duto que interliga o trecho assentado no leito marinho ao trecho instalado na plataforma.\nA- Falso.\nB- Verdadeiro.",
     "alternativas": {},
     "correta": "B",
-    "explicacao": "A alternativa B e a correta, pois a apostila delimita onde a inspecao submarina se aplica e quais elementos entram no escopo de verificacao. Conceito central: campo de aplicacao da inspecao submarina. Nesta questao, a chave e a correspondencia com a definicao tecnica aplicada.",
+    "explicacao": "A alternativa B é a correta, pois a apostila delimita onde a inspeção submarina se aplica e quais elementos entram no escopo de verificação. Conceito central: campo de aplicação da inspeção submarina. Nesta questão, a chave é a correspondência com a definição técnica aplicada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -243,7 +243,7 @@ export const prova06 = [
     "numero": 14,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Norma Petrobras que definenaos termos básicos e fundamentais empregados\nem soldagem.",
+    "enunciado": "Norma Petrobras que define os termos básicos e fundamentais empregados em soldagem.",
     "alternativas": {
       "A": "N 1815.",
       "B": "N 1438.",
@@ -251,7 +251,7 @@ export const prova06 = [
       "D": "N 1817."
     },
     "correta": "B",
-    "explicacao": "A opcao B esta adequada porque na avaliacao de solda a terminologia correta da descontinuidade e essencial para classificar a indicacao e registrar o achado. Conceito central: inspecao visual de solda e descontinuidades. No contexto desta questao, o termo-chave e \"N 1438.\".",
+    "explicacao": "A opção B está adequada porque na avaliação de solda a terminologia correta da descontinuidade é essencial para classificar a indicação e registrar o achado. Conceito central: inspeção visual de solda e descontinuidades. No contexto desta questão, o termo-chave é \"N 1438.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -262,13 +262,13 @@ export const prova06 = [
     "numero": 15,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Corrente Contínua Eletrodo Negativo: Tipo de ligação dos cabos elétricos\npara soldagem a arco com corrente contínua, na qual a peça énao pnaolo positivo enao eletrodo énao polo negativo do arco elétrico.",
+    "enunciado": "Corrente Contínua Eletrodo Negativo: tipo de ligação dos cabos elétricos para soldagem a arco com corrente contínua, na qual a peça é o polo positivo e o eletrodo é o polo negativo do arco elétrico.",
     "alternativas": {
       "A": "- Falso.",
       "B": "- Verdadeiro."
     },
     "correta": "B",
-    "explicacao": "Marca-se B porque na avaliacao de solda a terminologia correta da descontinuidade e essencial para classificar a indicacao e registrar o achado. Conceito central: inspecao visual de solda e descontinuidades. No contexto desta questao, o termo-chave e \"- Verdadeiro.\".",
+    "explicacao": "Marca-se B porque na avaliação de solda a terminologia correta da descontinuidade é essencial para classificar a indicação e registrar o achado. Conceito central: inspeção visual de solda e descontinuidades. No contexto desta questão, o termo-chave é \"- Verdadeiro.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -279,13 +279,13 @@ export const prova06 = [
     "numero": 16,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Solda Homogênea é a solda executada de modo que a composição química\ndo metal de solda seja próxima à do metal de base.",
+    "enunciado": "Solda homogênea é a solda executada de modo que a composição química do metal de solda seja próxima à do metal de base.",
     "alternativas": {
       "A": "Falso.",
       "B": "Verdadeiro."
     },
     "correta": "B",
-    "explicacao": "A alternativa B e a correta, pois na avaliacao de solda a terminologia correta da descontinuidade e essencial para classificar a indicacao e registrar o achado. Conceito central: inspecao visual de solda e descontinuidades. No contexto desta questao, o termo-chave e \"Verdadeiro.\".",
+    "explicacao": "A alternativa B é a correta, pois na avaliação de solda a terminologia correta da descontinuidade é essencial para classificar a indicação e registrar o achado. Conceito central: inspeção visual de solda e descontinuidades. No contexto desta questão, o termo-chave é \"Verdadeiro.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -296,10 +296,10 @@ export const prova06 = [
     "numero": 17,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A soldagem man ual é umanaoperação realizada por equipamento de\nsoldagem, sendo que toda a sua seqüência é executada e controlada\nmanualmente.\nA- falso.\nB- verdadeiro.",
+    "enunciado": "A soldagem manual é uma operação realizada por equipamento de soldagem, sendo que toda a sua sequência é executada e controlada manualmente.\nA- Falso.\nB- Verdadeiro.",
     "alternativas": {},
     "correta": "B",
-    "explicacao": "A opcao B esta adequada porque na avaliacao de solda a terminologia correta da descontinuidade e essencial para classificar a indicacao e registrar o achado. Conceito central: inspecao visual de solda e descontinuidades. Nesta questao, a chave e a correspondencia com a definicao tecnica aplicada.",
+    "explicacao": "A opção B está adequada porque na avaliação de solda a terminologia correta da descontinuidade é essencial para classificar a indicação e registrar o achado. Conceito central: inspeção visual de solda e descontinuidades. Nesta questão, a chave é a correspondência com a definição técnica aplicada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -312,13 +312,13 @@ export const prova06 = [
     "tipo": "multipla_escolha",
     "enunciado": "Gás inerte:",
     "alternativas": {
-      "A": "Gás que combina quimicamente comnao metal de basenaou metal de adição em\nfusão.",
-      "B": "Gás que não combina quimicamente comnao metal de basenaou metal de adição\nem fusão.",
-      "C": "Gás que influência quimicamentenao metal de basenaou metal de adição em\nfusão no processo de soldagem.",
-      "D": "Gás que interage comnao metal de base."
+      "A": "Gás que combina quimicamente com o metal de base ou metal de adição em fusão.",
+      "B": "Gás que não combina quimicamente com o metal de base ou metal de adição em fusão.",
+      "C": "Gás que influencia quimicamente o metal de base ou metal de adição em fusão no processo de soldagem.",
+      "D": "Gás que interage com o metal de base."
     },
     "correta": "B",
-    "explicacao": "Marca-se B porque na avaliacao de solda a terminologia correta da descontinuidade e essencial para classificar a indicacao e registrar o achado. Conceito central: inspecao visual de solda e descontinuidades. No contexto desta questao, o termo-chave e \"Gás que não combina quimicamente com o metal de base ou metal de adição em fusão.\".",
+    "explicacao": "Marca-se B porque na avaliação de solda a terminologia correta da descontinuidade é essencial para classificar a indicação e registrar o achado. Conceito central: inspeção visual de solda e descontinuidades. No contexto desta questão, o termo-chave é \"Gás que não combina quimicamente com o metal de base ou metal de adição em fusão.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -329,7 +329,7 @@ export const prova06 = [
     "numero": 19,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Norma Petrobras que definenaos termos empregados na denominação de\ndescontinuidades em materiais semi -elaboradosnaou elaborados,naoriundos de\nprocessos de fa bricação e/ou montagem, soldagem por fusão, fundição,\nforjamento e laminação.",
+    "enunciado": "Norma Petrobras que define os termos empregados na denominação de descontinuidades em materiais semi-elaborados ou elaborados, oriundos de processos de fabricação e/ou montagem, soldagem por fusão, fundição, forjamento e laminação.",
     "alternativas": {
       "A": "N 1438.",
       "B": "N 1738.",
@@ -337,7 +337,7 @@ export const prova06 = [
       "D": "N 2642."
     },
     "correta": "B",
-    "explicacao": "A alternativa B e a correta, pois na avaliacao de solda a terminologia correta da descontinuidade e essencial para classificar a indicacao e registrar o achado. Conceito central: inspecao visual de solda e descontinuidades. No contexto desta questao, o termo-chave e \"N 1738.\".",
+    "explicacao": "A alternativa B é a correta, pois na avaliação de solda a terminologia correta da descontinuidade é essencial para classificar a indicação e registrar o achado. Conceito central: inspeção visual de solda e descontinuidades. No contexto desta questão, o termo-chave é \"N 1738.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -348,15 +348,15 @@ export const prova06 = [
     "numero": 20,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "São fases na vida de uma estruturanaoceânica:",
+    "enunciado": "São fases na vida de uma estrutura oceânica:",
     "alternativas": {
       "A": "Montagem da estrutura.",
       "B": "Todas estão corretas.",
       "C": "Lançamento e instalação.",
-      "D": "Fabricação da matéria prima."
+      "D": "Fabricação da matéria-prima."
     },
     "correta": "B",
-    "explicacao": "A opcao B esta adequada porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Todas estão corretas.\".",
+    "explicacao": "A opção B está adequada porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Todas estão corretas.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -367,13 +367,13 @@ export const prova06 = [
     "numero": 21,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Tensão residual é a tensão adquirida pela estrutura durante a sua fabricação,naocasionada pela técnica incorreta tanto na montagem do com ponente como na\nsoldagem.",
+    "enunciado": "Tensão residual é a tensão adquirida pela estrutura durante a sua fabricação, ocasionada pela técnica incorreta tanto na montagem do componente como na soldagem.",
     "alternativas": {
       "A": "Falso.",
       "B": "Verdadeiro."
     },
     "correta": "B",
-    "explicacao": "Marca-se B porque na avaliacao de solda a terminologia correta da descontinuidade e essencial para classificar a indicacao e registrar o achado. Conceito central: inspecao visual de solda e descontinuidades. No contexto desta questao, o termo-chave e \"Verdadeiro.\".",
+    "explicacao": "Marca-se B porque na avaliação de solda a terminologia correta da descontinuidade é essencial para classificar a indicação e registrar o achado. Conceito central: inspeção visual de solda e descontinuidades. No contexto desta questão, o termo-chave é \"Verdadeiro.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -384,7 +384,7 @@ export const prova06 = [
     "numero": 22,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A Legislação Internacional espec ifica as condições e padrões mínimos que\ndevem ser empregados no planejamento, construção, instalação e manutenção\nde estruturas “offshore”. Cada estrutura marítima dev erá ter um Certificado de\nClasse que é emitido pelas:",
+    "enunciado": "A Legislação Internacional especifica as condições e padrões mínimos que devem ser empregados no planejamento, construção, instalação e manutenção de estruturas offshore. Cada estrutura marítima deverá ter um Certificado de Classe que é emitido pelas:",
     "alternativas": {
       "A": "Sociedades de Inspeção de Classe.",
       "B": "Sociedades de Inspetores de Classe.",
@@ -392,7 +392,7 @@ export const prova06 = [
       "D": "Sociedades Classificadoras."
     },
     "correta": "D",
-    "explicacao": "A alternativa D e a correta, pois o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Sociedades Classificadoras.\".",
+    "explicacao": "A alternativa D é a correta, pois o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Sociedades Classificadoras.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -403,7 +403,7 @@ export const prova06 = [
     "numero": 23,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Cada estrutura marítima deverá ter um Certificado de Classe que será válido\npor um período de",
+    "enunciado": "Cada estrutura marítima deverá ter um Certificado de Classe que será válido por um período de",
     "alternativas": {
       "A": "10 anos.",
       "B": "01 ano.",
@@ -411,7 +411,7 @@ export const prova06 = [
       "D": "04 anos."
     },
     "correta": "C",
-    "explicacao": "A opcao C esta adequada porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"05 anos.\".",
+    "explicacao": "A opção C está adequada porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"05 anos.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -422,7 +422,7 @@ export const prova06 = [
     "numero": 24,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "São condiçõesnaoceanográficas que dificultam a inspeção submarina:",
+    "enunciado": "São condições oceanográficas que dificultam a inspeção submarina:",
     "alternativas": {
       "A": "Ondulações.",
       "B": "Correntezas.",
@@ -430,7 +430,7 @@ export const prova06 = [
       "D": "Profundidade."
     },
     "correta": "C",
-    "explicacao": "Marca-se C porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Todas estão corretas.\".",
+    "explicacao": "Marca-se C porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Todas estão corretas.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -441,7 +441,7 @@ export const prova06 = [
     "numero": 25,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Um anodo de sacrifício que apresenta perda de massa localizada, é\ncaracterizado em qual tipo de desgaste:",
+    "enunciado": "Um ânodo de sacrifício que apresenta perda de massa localizada é caracterizado em qual tipo de desgaste:",
     "alternativas": {
       "A": "Desgaste galvânico.",
       "B": "Desgaste generalizado leve.",
@@ -449,7 +449,7 @@ export const prova06 = [
       "D": "Desgaste severo localizado."
     },
     "correta": "C",
-    "explicacao": "A alternativa C e a correta, pois na protecao catodica a verificacao de desgaste, secao e fixacao do anodo indica o estado de funcionamento do sistema. Conceito central: protecao catodica e inspecao de anodos. No contexto desta questao, o termo-chave e \"Desgaste irregular.\".",
+    "explicacao": "A alternativa C é a correta, pois na proteção catódica a verificação de desgaste, seção e fixação do ânodo indica o estado de funcionamento do sistema. Conceito central: proteção catódica e inspeção de ânodos. No contexto desta questão, o termo-chave é \"Desgaste irregular.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -460,13 +460,13 @@ export const prova06 = [
     "numero": 26,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Tratamento térmico é a mudança das propriedades mecânicas do açonaobtida\npor intermédio de um conjunto denaoperações de aquecime nto e resfriamento,\nsob condições controladas de temperatura, tempo e velocidade de resfriamento.",
+    "enunciado": "Tratamento térmico é a mudança das propriedades mecânicas do aço obtida por intermédio de um conjunto de operações de aquecimento e resfriamento, sob condições controladas de temperatura, tempo e velocidade de resfriamento.",
     "alternativas": {
       "A": "Falso.",
       "B": "Verdadeiro."
     },
     "correta": "B",
-    "explicacao": "A opcao B esta adequada porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Verdadeiro.\".",
+    "explicacao": "A opção B está adequada porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Verdadeiro.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -477,7 +477,7 @@ export const prova06 = [
     "numero": 27,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Une metais pelo aquecimento destes com um arco elétrico, entre um eletrodo\nnu (ou vários eletrodos) enao metal de base.nao arco está submerso e coberto por\numa camada de material granular fusível que é conhecido por fluxo.",
+    "enunciado": "Une metais pelo aquecimento destes com um arco elétrico, entre um eletrodo nu (ou vários eletrodos) e o metal de base. O arco está submerso e coberto por uma camada de material granular fusível que é conhecido por fluxo.",
     "alternativas": {
       "A": "Soldagem com eletrodo revestido.",
       "B": "Soldagem TIG.",
@@ -485,7 +485,7 @@ export const prova06 = [
       "D": "Soldagem a arco submerso."
     },
     "correta": "D",
-    "explicacao": "Marca-se D porque a qualidade da avaliacao depende de iluminacao adequada e de leitura clara das indicacoes de superficie. Conceito central: visibilidade e iluminacao na EV subaquatica. No contexto desta questao, o termo-chave e \"Soldagem a arco submerso.\".",
+    "explicacao": "Marca-se D porque a qualidade da avaliação depende de iluminação adequada e de leitura clara das indicações de superfície. Conceito central: visibilidade e iluminação na EV subaquática. No contexto desta questão, o termo-chave é \"Soldagem a arco submerso.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -496,7 +496,7 @@ export const prova06 = [
     "numero": 28,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "É a união de metais p elo aquecimentonaoriundo de um arco elétrico entre um\neletrodo revestido enao metal de base, na junta a ser soldada.",
+    "enunciado": "É a união de metais pelo aquecimento oriundo de um arco elétrico entre um eletrodo revestido e o metal de base, na junta a ser soldada.",
     "alternativas": {
       "A": "Soldagem a arco submerso.",
       "B": "Soldagem com eletrodo revestido.",
@@ -504,7 +504,7 @@ export const prova06 = [
       "D": "Soldagem hiperbárica com arame tubular."
     },
     "correta": "B",
-    "explicacao": "A alternativa B e a correta, pois o revestimento funciona como barreira protetora e seus danos devem ser reconhecidos pela morfologia observada. Conceito central: revestimento protetor e degradacao. No contexto desta questao, o termo-chave e \"Soldagem com eletrodo revestido.\".",
+    "explicacao": "A alternativa B é a correta, pois o revestimento funciona como barreira protetora e seus danos devem ser reconhecidos pela morfologia observada. Conceito central: revestimento protetor e degradação. No contexto desta questão, o termo-chave é \"Soldagem com eletrodo revestido.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -515,7 +515,7 @@ export const prova06 = [
     "numero": 29,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "O revestim ento do eletrodo, no processo de soldagem com eletrodo\nrevestido, tem funções importantes que podem ser:",
+    "enunciado": "O revestimento do eletrodo, no processo de soldagem com eletrodo revestido, tem funções importantes que podem ser:",
     "alternativas": {
       "A": "Elétricas.",
       "B": "Físicas e mecânicas.",
@@ -523,7 +523,7 @@ export const prova06 = [
       "D": "Todas as alternativas estão corretas."
     },
     "correta": "D",
-    "explicacao": "A opcao D esta adequada porque o revestimento funciona como barreira protetora e seus danos devem ser reconhecidos pela morfologia observada. Conceito central: revestimento protetor e degradacao. No contexto desta questao, o termo-chave e \"Todas as alternativas estão corretas.\".",
+    "explicacao": "A opção D está adequada porque o revestimento funciona como barreira protetora e seus danos devem ser reconhecidos pela morfologia observada. Conceito central: revestimento protetor e degradação. No contexto desta questão, o termo-chave é \"Todas as alternativas estão corretas.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -534,7 +534,7 @@ export const prova06 = [
     "numero": 30,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Esta pilha é formada por concentrações diferentes denaoxigênio em um\nmesmo material.",
+    "enunciado": "Esta pilha é formada por concentrações diferentes de oxigênio em um mesmo material.",
     "alternativas": {
       "A": "Pilha de corrosão.",
       "B": "Pilha galvânica.",
@@ -542,7 +542,7 @@ export const prova06 = [
       "D": "Pilha de concentração iônica."
     },
     "correta": "C",
-    "explicacao": "Marca-se C porque o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Pilha de aeração diferencial.\".",
+    "explicacao": "Marca-se C porque o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Pilha de aeração diferencial.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -553,15 +553,15 @@ export const prova06 = [
     "numero": 31,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "As pilhasnaou células de corrosão eletroquímica são responsáveis pela\ndeterioração do material metálico. Uma pilha de corrosão é constituída:",
+    "enunciado": "As pilhas ou células de corrosão eletroquímica são responsáveis pela deterioração do material metálico. Uma pilha de corrosão é constituída:",
     "alternativas": {
-      "A": "Anodo, catodo, ligação metálica e eletrólito.",
-      "B": "Anodo, catodo, resistividade e passivação.",
+      "A": "Ânodo, cátodo, ligação metálica e eletrólito.",
+      "B": "Ânodo, cátodo, resistividade e passivação.",
       "C": "Polarização, passivação, pH e resistividade.",
       "D": "Nenhuma das alternativas."
     },
     "correta": "A",
-    "explicacao": "A alternativa A e a correta, pois a classificacao correta considera forma e distribuicao da corrosao, como uniforme, alveolar e pitiforme. Conceito central: classificacao de corrosao. No contexto desta questao, o termo-chave e \"Anodo, catodo, ligação metálica e eletrólito.\".",
+    "explicacao": "A alternativa A é a correta, pois a classificação correta considera forma e distribuição da corrosão, como uniforme, alveolar e pitiforme. Conceito central: classificação de corrosão. No contexto desta questão, o termo-chave é \"Ânodo, cátodo, ligação metálica e eletrólito.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -572,15 +572,15 @@ export const prova06 = [
     "numero": 32,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "O fluxo de elétronsnaorigina -se da diferença de potencial existente entrenao\nmetal a proteger enaoutro escolhido como anodo, e quenaocupa uma posição mais\nelevada na tabela de potenciais.",
+    "enunciado": "O fluxo de elétrons origina-se da diferença de potencial existente entre o metal a proteger e outro escolhido como ânodo, e que ocupa uma posição mais elevada na tabela de potenciais.",
     "alternativas": {
       "A": "Proteção catódica por corrente impressa.",
-      "B": "Proteçãonaoxi-redutiva.",
+      "B": "Proteção oxi-redutiva.",
       "C": "Proteção anódica por desgaste controlado.",
-      "D": "Proteção catódica por anodo galvânico de sacrifício."
+      "D": "Proteção catódica por ânodo galvânico de sacrifício."
     },
     "correta": "D",
-    "explicacao": "A opcao D esta adequada porque a qualidade da avaliacao depende de iluminacao adequada e de leitura clara das indicacoes de superficie. Conceito central: visibilidade e iluminacao na EV subaquatica. No contexto desta questao, o termo-chave e \"Proteção catódica por anodo galvânico de sacrifício.\".",
+    "explicacao": "A opção D está adequada porque a qualidade da avaliação depende de iluminação adequada e de leitura clara das indicações de superfície. Conceito central: visibilidade e iluminação na EV subaquática. No contexto desta questão, o termo-chave é \"Proteção catódica por ânodo galvânico de sacrifício.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -591,7 +591,7 @@ export const prova06 = [
     "numero": 33,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Dos exemplos citados aba ixo, qual das ferramentas de limpeza utilizadas na\ninspeção subaquática não é mecanizada:",
+    "enunciado": "Dos exemplos citados abaixo, qual das ferramentas de limpeza utilizadas na inspeção subaquática não é mecanizada:",
     "alternativas": {
       "A": "Agulheiro pneumático.",
       "B": "Escova de aço montada sobre ferramenta hidráulica.",
@@ -599,7 +599,7 @@ export const prova06 = [
       "D": "Raspadeira de aço."
     },
     "correta": "D",
-    "explicacao": "Marca-se D porque incrustacoes e sujidades alteram a leitura da superficie e por isso a preparacao da area e a medicao correta sao obrigatorias. Conceito central: incrustacoes e preparacao de superficie. No contexto desta questao, o termo-chave e \"Raspadeira de aço.\".",
+    "explicacao": "Marca-se D porque incrustações e sujidades alteram a leitura da superfície e por isso a preparação da área e a medição correta são obrigatórias. Conceito central: incrustações e preparação de superfície. No contexto desta questão, o termo-chave é \"Raspadeira de aço.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -610,7 +610,7 @@ export const prova06 = [
     "numero": 34,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale a afirmativa correta a respeito da seguinte descrição: é uma não\nconformidade no material que afeta a integridade da peça, podendo\ncomprometer sua utilização futura.",
+    "enunciado": "Assinale a afirmativa correta a respeito da seguinte descrição: é uma não conformidade no material que afeta a integridade da peça, podendo comprometer sua utilização futura.",
     "alternativas": {
       "A": "Descontinuidade.",
       "B": "Defeito.",
@@ -618,7 +618,7 @@ export const prova06 = [
       "D": "Deformação."
     },
     "correta": "C",
-    "explicacao": "A alternativa C e a correta, pois o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Duas alternativas são corretas.\".",
+    "explicacao": "A alternativa C é a correta, pois o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Duas alternativas são corretas.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -629,7 +629,7 @@ export const prova06 = [
     "numero": 35,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a norma ABNT NBR 16244, a corrosão alveolar, quanto à\nintensidade, pode ser classificada em:",
+    "enunciado": "De acordo com a norma ABNT NBR 16244, a corrosão alveolar, quanto à intensidade, pode ser classificada em:",
     "alternativas": {
       "A": "Tipo I, II, III, IV.",
       "B": "Leve, média e severa.",
@@ -637,7 +637,7 @@ export const prova06 = [
       "D": "Fraca, atuante e intensa."
     },
     "correta": "A",
-    "explicacao": "A opcao A esta adequada porque a classificacao correta considera forma e distribuicao da corrosao, como uniforme, alveolar e pitiforme. Conceito central: classificacao de corrosao. No contexto desta questao, o termo-chave e \"Tipo I, II, III, IV.\".",
+    "explicacao": "A opção A está adequada porque a classificação correta considera forma e distribuição da corrosão, como uniforme, alveolar e pitiforme. Conceito central: classificação de corrosão. No contexto desta questão, o termo-chave é \"Tipo I, II, III, IV.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -648,7 +648,7 @@ export const prova06 = [
     "numero": 36,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Quanto a extensão,nao processo corrosivo pode ser:",
+    "enunciado": "Quanto à extensão, o processo corrosivo pode ser:",
     "alternativas": {
       "A": "Centralizado, localizado e disperso.",
       "B": "Localizado, generalizado e inconstante.",
@@ -656,7 +656,7 @@ export const prova06 = [
       "D": "Localizado, generalizado e disperso."
     },
     "correta": "D",
-    "explicacao": "Marca-se D porque a classificacao correta considera forma e distribuicao da corrosao, como uniforme, alveolar e pitiforme. Conceito central: classificacao de corrosao. No contexto desta questao, o termo-chave e \"Localizado, generalizado e disperso.\".",
+    "explicacao": "Marca-se D porque a classificação correta considera forma e distribuição da corrosão, como uniforme, alveolar e pitiforme. Conceito central: classificação de corrosão. No contexto desta questão, o termo-chave é \"Localizado, generalizado e disperso.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -671,11 +671,11 @@ export const prova06 = [
     "alternativas": {
       "A": "Na presença de água.",
       "B": "Em geral na temperatura ambiente.",
-      "C": "Devido a formação de uma pilhanaou célula de corrosão.",
+      "C": "Devido à formação de uma pilha ou célula de corrosão.",
       "D": "Todas as alternativas são corretas."
     },
     "correta": "D",
-    "explicacao": "A alternativa D e a correta, pois a classificacao correta considera forma e distribuicao da corrosao, como uniforme, alveolar e pitiforme. Conceito central: classificacao de corrosao. No contexto desta questao, o termo-chave e \"Todas as alternativas são corretas.\".",
+    "explicacao": "A alternativa D é a correta, pois a classificação correta considera forma e distribuição da corrosão, como uniforme, alveolar e pitiforme. Conceito central: classificação de corrosão. No contexto desta questão, o termo-chave é \"Todas as alternativas são corretas.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -694,7 +694,7 @@ export const prova06 = [
       "D": "Alveolar, pitiforme e transgranular."
     },
     "correta": "C",
-    "explicacao": "A opcao C esta adequada porque a classificacao correta considera forma e distribuicao da corrosao, como uniforme, alveolar e pitiforme. Conceito central: classificacao de corrosao. No contexto desta questao, o termo-chave e \"Alveolar, uniforme e pitiforme.\".",
+    "explicacao": "A opção C está adequada porque a classificação correta considera forma e distribuição da corrosão, como uniforme, alveolar e pitiforme. Conceito central: classificação de corrosão. No contexto desta questão, o termo-chave é \"Alveolar, uniforme e pitiforme.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -705,7 +705,7 @@ export const prova06 = [
     "numero": 39,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Quando na inspeção de um anodo galvânico de sacrifícionao inspetor verifica\nque parte da alma do anodo está exposta, havendo pouca massa,nao desgaste é\ncaracterizado como:",
+    "enunciado": "Quando na inspeção de um ânodo galvânico de sacrifício o inspetor verifica que parte da alma do ânodo está exposta, havendo pouca massa, o desgaste é caracterizado como:",
     "alternativas": {
       "A": "Desgaste generalizado intenso.",
       "B": "Desgaste irregular.",
@@ -713,7 +713,7 @@ export const prova06 = [
       "D": "Desgaste generalizado severo."
     },
     "correta": "D",
-    "explicacao": "Marca-se D porque na protecao catodica a verificacao de desgaste, secao e fixacao do anodo indica o estado de funcionamento do sistema. Conceito central: protecao catodica e inspecao de anodos. No contexto desta questao, o termo-chave e \"Desgaste generalizado severo.\".",
+    "explicacao": "Marca-se D porque na proteção catódica a verificação de desgaste, seção e fixação do ânodo indica o estado de funcionamento do sistema. Conceito central: proteção catódica e inspeção de ânodos. No contexto desta questão, o termo-chave é \"Desgaste generalizado severo.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -726,13 +726,13 @@ export const prova06 = [
     "tipo": "multipla_escolha",
     "enunciado": "São considerados danos mecânicos:",
     "alternativas": {
-      "A": "amassamento, rasgo e corrosão.",
-      "B": "mossa, colapso hidrostático e erosão.",
+      "A": "Amassamento, rasgo e corrosão.",
+      "B": "Mossa, colapso hidrostático e erosão.",
       "C": "Corte, puncionamento e assoreamento.",
-      "D": "Nenhumas das alternativas acima."
+      "D": "Nenhuma das alternativas acima."
     },
     "correta": "D",
-    "explicacao": "A alternativa D e a correta, pois o item esta coerente com a terminologia tecnica usada na formacao de inspecao visual subaquatica. Conceito central: interpretacao tecnica do enunciado. No contexto desta questao, o termo-chave e \"Nenhumas das alternativas acima.\".",
+    "explicacao": "A alternativa D é a correta, pois o item está coerente com a terminologia técnica usada na formação de inspeção visual subaquática. Conceito central: interpretação técnica do enunciado. No contexto desta questão, o termo-chave é \"Nenhuma das alternativas acima.\".",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   }

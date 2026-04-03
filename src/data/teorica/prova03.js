@@ -6,13 +6,13 @@ export const prova03 = [
     "numero": 1,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Os cabos de alimentação de equipamentos, utilizados em ensaio visual\nsubmarino podem ter emendasnaou derivações de modo a facilitarnao manuseio:",
+    "enunciado": "Os cabos de alimentação de equipamentos, utilizados em ensaio visual submarino, podem ter emendas ou derivações de modo a facilitar o manuseio:",
     "alternativas": {
       "A": "Falsa",
       "B": "Verdadeira"
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Falsa Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Falsa. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -26,12 +26,12 @@ export const prova03 = [
     "enunciado": "Assinale a afirmativa errada:",
     "alternativas": {
       "A": "Face de fusão é a superfície do metal de base que será fundida na soldagem.",
-      "B": "A face da solda é a superfície exposta da solda, pelo ladonaonde a solda foi\nexecutada.",
-      "C": "Geometria da junta é a forma e dimensões da seção transversal de uma junta\napós soldagem.",
-      "D": "Solda em ângulo é a solda de seção transversal aproximadamente triangular\nexecutada em juntas aproximadamente em ângulo reto."
+      "B": "A face da solda é a superfície exposta da solda, pelo lado onde a solda foi executada.",
+      "C": "Geometria da junta é a forma e dimensões da seção transversal de uma junta após soldagem.",
+      "D": "Solda em ângulo é a solda de seção transversal aproximadamente triangular executada em juntas aproximadamente em ângulo reto."
     },
     "correta": "D",
-    "explicacao": "A alternativa D esta correta porque responde ao enunciado com: Solda em ângulo é a solda de seção transversal aproximadamente triangular executada em juntas aproximadamente em ângulo reto. Conceito principal: em soldagem, a avaliacao visual foca processo e descontinuidades superficiais observaveis.",
+    "explicacao": "A alternativa D está correta porque responde ao enunciado com: Solda em ângulo é a solda de seção transversal aproximadamente triangular executada em juntas aproximadamente em ângulo reto. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -42,7 +42,7 @@ export const prova03 = [
     "numero": 3,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "No processo de soldagem com eletrodo revestido, quando se diz que a\nsoldagem é com polaridade inversa, significa que:",
+    "enunciado": "No processo de soldagem com eletrodo revestido, quando se diz que a soldagem é com polaridade inversa, significa que:",
     "alternativas": {
       "A": "A peça está ligada ao polo positivo da máquina de solda.",
       "B": "O eletrodo está ligado ao polo negativo da máquina de solda.",
@@ -50,7 +50,7 @@ export const prova03 = [
       "D": "O eletrodo está ligado ao polo positivo da máquina de solda."
     },
     "correta": "D",
-    "explicacao": "A alternativa D esta correta porque responde ao enunciado com: O eletrodo está ligado ao polo positivo da máquina de solda. Conceito principal: revestimento atua como barreira contra corrosao e seu estado deve ser registrado.",
+    "explicacao": "A alternativa D está correta porque responde ao enunciado com: O eletrodo está ligado ao polo positivo da máquina de solda. Conceito principal: revestimento atua como barreira contra corrosão e seu estado deve ser registrado.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -63,12 +63,12 @@ export const prova03 = [
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa errada:",
     "alternativas": {
-      "A": "Solda heterogênea é a solda cuja composição química da zona fundida difere\nsignificativamente do (s) metal (ais) base.",
-      "B": "Solda de aresta é a solda executada no bisel de um chanfro para reconstituir\na formanaoriginal da peça antes da execução do chanfro.",
+      "A": "Solda heterogênea é a solda cuja composição química da zona fundida difere significativamente do(s) metal(ais) base.",
+      "B": "Solda de aresta é a solda executada no bisel de um chanfro para reconstituir a forma original da peça antes da execução do chanfro.",
       "C": "Solda autógena é a solda de fusão sem participação de metal de adição."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Solda de aresta é a solda executada no bisel de um chanfro para reconstituir a forma original da peça antes da execução do chanfro. Conceito principal: em soldagem, a avaliacao visual foca processo e descontinuidades superficiais observaveis.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Solda de aresta é a solda executada no bisel de um chanfro para reconstituir a forma original da peça antes da execução do chanfro. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -79,7 +79,7 @@ export const prova03 = [
     "numero": 5,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Os ensaios visuais demandam meios auxiliares e complementares para sua\nexecução. Citamos a utilização de:",
+    "enunciado": "Os ensaios visuais demandam meios auxiliares e complementares para sua execução. Citamos a utilização de:",
     "alternativas": {
       "A": "Partículas magnéticas.",
       "B": "Aparelho de medição de espessura.",
@@ -87,7 +87,7 @@ export const prova03 = [
       "D": "Raspadeira e escova manual."
     },
     "correta": "D",
-    "explicacao": "A alternativa D esta correta porque responde ao enunciado com: Raspadeira e escova manual. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa D está correta porque responde ao enunciado com: Raspadeira e escova manual. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -98,15 +98,15 @@ export const prova03 = [
     "numero": 6,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual das alternativas abaixo apresentanaos instrumentos normalmente usados\nna inspeção visual subaquática de anodos:",
+    "enunciado": "Qual das alternativas abaixo apresenta os instrumentos normalmente usados na inspeção visual subaquática de ânodos:",
     "alternativas": {
       "A": "Estilete graduado, régua e fibroscópio.",
       "B": "Paquímetro, lupa e lanterna.",
-      "C": "régua, lanterna e estilete graduado.",
+      "C": "Régua, lanterna e estilete graduado.",
       "D": "Régua, estilete graduado e fita métrica."
     },
     "correta": "D",
-    "explicacao": "A alternativa D esta correta porque responde ao enunciado com: Régua, estilete graduado e fita métrica. Conceito principal: na protecao catodica, observam-se desgaste, secao, fixacao e condicao dos anodos.",
+    "explicacao": "A alternativa D está correta porque responde ao enunciado com: Régua, estilete graduado e fita métrica. Conceito principal: na proteção catódica, observam-se desgaste, seção, fixação e condição dos ânodos.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -117,15 +117,15 @@ export const prova03 = [
     "numero": 7,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Do ponto de vista de proteção contra choques,naos cabos de alimentação de\nequipamentos:",
+    "enunciado": "Do ponto de vista de proteção contra choques, os cabos de alimentação de equipamentos:",
     "alternativas": {
       "A": "Nenhuma das respostas.",
-      "B": "Ser protegidos contra danos mecânicos acidentais.",
-      "C": "Não precisam ter isolamento resistente a umidade.",
-      "D": "Devem possuir emendas para facilitar a mautenção."
+      "B": "Devem ser protegidos contra danos mecânicos acidentais.",
+      "C": "Não precisam ter isolamento resistente à umidade.",
+      "D": "Devem possuir emendas para facilitar a manutenção."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Ser protegidos contra danos mecânicos acidentais. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Devem ser protegidos contra danos mecânicos acidentais. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -136,7 +136,7 @@ export const prova03 = [
     "numero": 8,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Dentre as descontinuidades citadas abaixo qual não pertence a peças\nfundidas:",
+    "enunciado": "Dentre as descontinuidades citadas abaixo, qual não pertence a peças fundidas:",
     "alternativas": {
       "A": "Gota fria.",
       "B": "Segregação.",
@@ -144,7 +144,7 @@ export const prova03 = [
       "D": "Rabo de rato."
     },
     "correta": "C",
-    "explicacao": "A alternativa C esta correta porque responde ao enunciado com: Dupla laminação. Conceito principal: a indicacao deve ser identificada, classificada e registrada com terminologia tecnica adequada.",
+    "explicacao": "A alternativa C está correta porque responde ao enunciado com: Dupla laminação. Conceito principal: a indicação deve ser identificada, classificada e registrada com terminologia técnica adequada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -155,15 +155,15 @@ export const prova03 = [
     "numero": 9,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A inspeção do leito marinho, na região da jaqueta e proximidades,naobjetiva\nverificar:",
+    "enunciado": "A inspeção do leito marinho, na região da jaqueta e proximidades, objetiva verificar:",
     "alternativas": {
-      "A": "Anaocorrência de erosãonaou assoreamento da estrutura.",
-      "B": "Anaocorrência de abrasãonaou assoreamento da estrutura.",
+      "A": "A não ocorrência de erosão ou assoreamento da estrutura.",
+      "B": "A não ocorrência de abrasão ou assoreamento da estrutura.",
       "C": "Existem duas respostas corretas.",
       "D": "A existência de sucatas."
     },
     "correta": "C",
-    "explicacao": "A alternativa C esta correta porque responde ao enunciado com: Existem duas respostas corretas. Conceito principal: no leito marinho, erosao, assoreamento e vao livre impactam apoio e estabilidade.",
+    "explicacao": "A alternativa C está correta porque responde ao enunciado com: Existem duas respostas corretas. Conceito principal: no leito marinho, erosão, assoreamento e vão livre impactam apoio e estabilidade.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -174,13 +174,13 @@ export const prova03 = [
     "numero": 10,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinalar se a afirmativa é verdadeiranaou falsa:\n“a inspeção do leito marinho deve se prender somente a região interna da\njaqueta”",
+    "enunciado": "Assinalar se a afirmativa é verdadeira ou falsa:\n“A inspeção do leito marinho deve se prender somente à região interna da jaqueta”.",
     "alternativas": {
       "A": "Verdadeira.",
       "B": "Falsa."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Falsa. Conceito principal: no leito marinho, erosao, assoreamento e vao livre impactam apoio e estabilidade.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Falsa. Conceito principal: no leito marinho, erosão, assoreamento e vão livre impactam apoio e estabilidade.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -191,7 +191,7 @@ export const prova03 = [
     "numero": 11,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual das alternativas abaixo não corresponde a descontinuidades\nencontradas em forjados e laminados:",
+    "enunciado": "Qual das alternativas abaixo não corresponde a descontinuidades encontradas em forjados e laminados:",
     "alternativas": {
       "A": "Dupla laminação.",
       "B": "Rabo de rato.",
@@ -199,7 +199,7 @@ export const prova03 = [
       "D": "Dobra de forjamento."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Rabo de rato. Conceito principal: a indicacao deve ser identificada, classificada e registrada com terminologia tecnica adequada.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Rabo de rato. Conceito principal: a indicação deve ser identificada, classificada e registrada com terminologia técnica adequada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -218,7 +218,7 @@ export const prova03 = [
       "D": "Trinca longitudinal."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Trinca interlamelar. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Trinca interlamelar. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -229,13 +229,13 @@ export const prova03 = [
     "numero": 13,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinalar verdaddeiranaou falsa na afirmativa abaixo:\nQuando se deseja realçar imperfeições superficiais, a incidência do feixe\nluminoso deve sernaoblíqua em relação a superfície para que se notenao efeito de\nluz e sombra.",
+    "enunciado": "Assinalar verdadeira ou falsa na afirmativa abaixo:\nQuando se deseja realçar imperfeições superficiais, a incidência do feixe luminoso deve ser oblíqua em relação à superfície para que se note o efeito de luz e sombra.",
     "alternativas": {
       "A": "Falsa.",
       "B": "Verdadeira."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Verdadeira. Conceito principal: iluminacao e visibilidade adequadas sao requisitos para avaliacao visual confiavel.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Verdadeira. Conceito principal: iluminação e visibilidade adequadas são requisitos para avaliação visual confiável.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -246,13 +246,13 @@ export const prova03 = [
     "numero": 14,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinalar se a afirmativa e verdadeiranaou falsa:\nNa inspeção do leito marinho deve se r relatado a natureza do solo,nao perfil de\nassoreamento e erosão e a presença de danos mecânicos.",
+    "enunciado": "Assinalar se a afirmativa é verdadeira ou falsa:\nNa inspeção do leito marinho deve ser relatada a natureza do solo, o perfil de assoreamento e erosão e a presença de danos mecânicos.",
     "alternativas": {
       "A": "Verdadeira.",
       "B": "Falsa."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Falsa. Conceito principal: no leito marinho, erosao, assoreamento e vao livre impactam apoio e estabilidade.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Falsa. Conceito principal: no leito marinho, erosão, assoreamento e vão livre impactam apoio e estabilidade.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -271,7 +271,7 @@ export const prova03 = [
       "D": "Trinca interlamelar."
     },
     "correta": "C",
-    "explicacao": "A alternativa C esta correta porque responde ao enunciado com: Trinca longitudinal. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa C está correta porque responde ao enunciado com: Trinca longitudinal. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -284,13 +284,13 @@ export const prova03 = [
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa correta.",
     "alternativas": {
-      "A": "Margem da solda é a junção entre a face da solda enao metal de base.",
+      "A": "Margem da solda é a junção entre a face da solda e o metal de base.",
       "B": "Todas as afirmativas estão incorretas.",
-      "C": "Junta dissimilar é a junta soldada cuja composição química da zona fundida\ndifere significativamente do metal de base.",
-      "D": "Snaolda dissimilar é a solda executada entre peças de composição química\nsignificativamente diferentes."
+      "C": "Junta dissimilar é a junta soldada cuja composição química da zona fundida difere significativamente do metal de base.",
+      "D": "Solda dissimilar é a solda executada entre peças de composição química significativamente diferentes."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Margem da solda é a junção entre a face da solda e o metal de base. Conceito principal: em soldagem, a avaliacao visual foca processo e descontinuidades superficiais observaveis.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Margem da solda é a junção entre a face da solda e o metal de base. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -301,15 +301,15 @@ export const prova03 = [
     "numero": 17,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual das alternativas aba ixo, referentes ao processo de soldagem cnaom\neletrodo revestido é falsa:",
+    "enunciado": "Qual das alternativas abaixo, referentes ao processo de soldagem com eletrodo revestido, é falsa:",
     "alternativas": {
-      "A": "Uma das causas danaocorrência de falta de penetração é a técnica inadequada\nde soldagem.",
-      "B": "Trinca interlamelar é freqüentemente causada pela inabilidade do soldador.",
-      "C": "I nclusão de escória são freqüentemente provocadas pela manipulação\ninadequada dos eletrodos.",
-      "D": "Uma das causas do aparecimento da falta de fusão é a corrente inadequada\nde soldagem."
+      "A": "Uma das causas da ocorrência de falta de penetração é a técnica inadequada de soldagem.",
+      "B": "Trinca interlamelar é frequentemente causada pela inabilidade do soldador.",
+      "C": "Inclusão de escória é frequentemente provocada pela manipulação inadequada dos eletrodos.",
+      "D": "Uma das causas do aparecimento da falta de fusão é a corrente inadequada de soldagem."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Trinca interlamelar é freqüentemente causada pela inabilidade do soldador. Conceito principal: revestimento atua como barreira contra corrosao e seu estado deve ser registrado.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Trinca interlamelar é frequentemente causada pela inabilidade do soldador. Conceito principal: revestimento atua como barreira contra corrosão e seu estado deve ser registrado.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -320,13 +320,13 @@ export const prova03 = [
     "numero": 18,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "De acordo com a norma, trinca é uma descontinuidade tridimensional\nproduzida por uma ruptura local do material.",
+    "enunciado": "De acordo com a norma, trinca é uma descontinuidade tridimensional produzida por uma ruptura local do material.",
     "alternativas": {
       "A": "Falso.",
       "B": "Verdadeiro."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Falso. Conceito principal: a indicacao deve ser identificada, classificada e registrada com terminologia tecnica adequada.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Falso. Conceito principal: a indicação deve ser identificada, classificada e registrada com terminologia técnica adequada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -342,10 +342,10 @@ export const prova03 = [
       "A": "Subaquecimento do material.",
       "B": "Rebarba excessiva.",
       "C": "Dobras de metal comprimidas contra a superfície da peça.",
-      "D": "carepas de óxido incrustadas profundamente na superfície."
+      "D": "Carepas de óxido incrustadas profundamente na superfície."
     },
     "correta": "C",
-    "explicacao": "A alternativa C esta correta porque responde ao enunciado com: Dobras de metal comprimidas contra a superfície da peça. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa C está correta porque responde ao enunciado com: Dobras de metal comprimidas contra a superfície da peça. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -356,15 +356,15 @@ export const prova03 = [
     "numero": 20,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual dos instrumentos abaixo empregados na inspeção visual subaquática,\ndeve sofrer uma aferição periódica por instituições credenciadas.",
+    "enunciado": "Qual dos instrumentos abaixo empregados na inspeção visual subaquática deve sofrer uma aferição periódica por instituições credenciadas.",
     "alternativas": {
       "A": "Lanterna.",
       "B": "Holofote.",
-      "C": "Fita mètrica.",
+      "C": "Fita métrica.",
       "D": "Máquina fotográfica.\nE) Lupa."
     },
     "correta": "C",
-    "explicacao": "A alternativa C esta correta porque responde ao enunciado com: Fita mètrica. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa C está correta porque responde ao enunciado com: Fita métrica. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -378,12 +378,12 @@ export const prova03 = [
     "enunciado": "Assinale a afirmativa correta:",
     "alternativas": {
       "A": "Nenhuma das respostas é correta.",
-      "B": "Camada énao depósitonaobtido com um único passe.",
+      "B": "Camada é o depósito obtido com um único passe.",
       "C": "Porosidade alongada é causada pelo eletrodo de tungstênio.",
-      "D": "Zona afetada termicamente é a porção do metal de base que sofreu apenas\nfusão parcial durante a soldagem.\nE) Solda de aresta é sinônimo de solda em ângulo."
+      "D": "Zona afetada termicamente é a porção do metal de base que sofreu apenas fusão parcial durante a soldagem.\nE) Solda de aresta é sinônimo de solda em ângulo."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Nenhuma das respostas é correta. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Nenhuma das respostas é correta. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -394,7 +394,7 @@ export const prova03 = [
     "numero": 22,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A deterioração manifestada na películanaou sob esta, sob a forma e coloração\ncaracterística do enferrujamento existente, acompanhadanaou não do\ndesprendimento localizado da película, chama-se:",
+    "enunciado": "A deterioração manifestada na película de tinta, ou sob esta, sob a forma e coloração característica do enferrujamento existente, acompanhada ou não do desprendimento localizado da película, chama-se:",
     "alternativas": {
       "A": "Descascamento e corrosão.",
       "B": "Escamação de tinta.",
@@ -402,7 +402,7 @@ export const prova03 = [
       "D": "Enferrujamento de tinta."
     },
     "correta": "D",
-    "explicacao": "A alternativa D esta correta porque responde ao enunciado com: Enferrujamento de tinta. Conceito principal: e preciso identificar forma, extensao e intensidade da corrosao para classificar a indicacao.",
+    "explicacao": "A alternativa D está correta porque responde ao enunciado com: Enferrujamento de tinta. Conceito principal: é preciso identificar forma, extensão e intensidade da corrosão para classificar a indicação.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -413,7 +413,7 @@ export const prova03 = [
     "numero": 23,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Excesso de metal da zona fundida sobreposto ao metal de base na margem\nda solda, sem estar fundido ao metal de base. E ssa descontinuidade é chamada\nde:",
+    "enunciado": "Excesso de metal da zona fundida sobreposto ao metal de base na margem da solda, sem estar fundido ao metal de base. Essa descontinuidade é chamada de:",
     "alternativas": {
       "A": "Rechupe de cratera.",
       "B": "Respingo.",
@@ -421,7 +421,7 @@ export const prova03 = [
       "D": "Sobreposição."
     },
     "correta": "D",
-    "explicacao": "A alternativa D esta correta porque responde ao enunciado com: Sobreposição. Conceito principal: em soldagem, a avaliacao visual foca processo e descontinuidades superficiais observaveis.",
+    "explicacao": "A alternativa D está correta porque responde ao enunciado com: Sobreposição. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -432,7 +432,7 @@ export const prova03 = [
     "numero": 24,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Depressão sob forma de entalhe, localizado no metal de base acompanhando\na margem da solda. Essa descontinuidade é chamada de:",
+    "enunciado": "Depressão sob forma de entalhe, localizada no metal de base acompanhando a margem da solda. Essa descontinuidade é chamada de:",
     "alternativas": {
       "A": "Trinca.",
       "B": "Deposição insuficiente.",
@@ -440,7 +440,7 @@ export const prova03 = [
       "D": "Nenhuma das respostas."
     },
     "correta": "C",
-    "explicacao": "A alternativa C esta correta porque responde ao enunciado com: Mordedura. Conceito principal: em soldagem, a avaliacao visual foca processo e descontinuidades superficiais observaveis.",
+    "explicacao": "A alternativa C está correta porque responde ao enunciado com: Mordedura. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -451,15 +451,15 @@ export const prova03 = [
     "numero": 25,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual dos seguintes requesitos não é suficiente na inspeção visual\nsubaquática:",
+    "enunciado": "Qual dos seguintes requisitos não é suficiente na inspeção visual subaquática:",
     "alternativas": {
       "A": "Luminosidade de 100 lux.",
       "B": "Acuidade visual próxima Jaeger 1.",
-      "C": "Acuidade visual longingua Snellen 20/20.",
+      "C": "Acuidade visual longínqua Snellen 20/20.",
       "D": "Visibilidade da água do mar de 5 metros."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Luminosidade de 100 lux. Conceito principal: iluminacao e visibilidade adequadas sao requisitos para avaliacao visual confiavel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Luminosidade de 100 lux. Conceito principal: iluminação e visibilidade adequadas são requisitos para avaliação visual confiável.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -470,7 +470,7 @@ export const prova03 = [
     "numero": 26,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Imperfeição local na superfície do metal de base resultante da abertura do\narco elétrico. Essa descontinuidade é chamada de:",
+    "enunciado": "Imperfeição local na superfície do metal de base resultante da abertura do arco elétrico. Essa descontinuidade é chamada de:",
     "alternativas": {
       "A": "Falta de penetração.",
       "B": "Falta de fusão.",
@@ -478,7 +478,7 @@ export const prova03 = [
       "D": "Respingo."
     },
     "correta": "C",
-    "explicacao": "A alternativa C esta correta porque responde ao enunciado com: Abertura de arco. Conceito principal: a indicacao deve ser identificada, classificada e registrada com terminologia tecnica adequada.",
+    "explicacao": "A alternativa C está correta porque responde ao enunciado com: Abertura de arco. Conceito principal: a indicação deve ser identificada, classificada e registrada com terminologia técnica adequada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -489,7 +489,7 @@ export const prova03 = [
     "numero": 27,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Das descontinuidades abaixo:\nI - mordedura.\nII- inclusão de escória entre camadas.\nIII- porosidade interna.\nIV- deposição insuficiente.\nV- sobreposição.\nQuais são as descontinuidades que devem ser detectadas no exame visual de\nsoldas:",
+    "enunciado": "Das descontinuidades abaixo:\nI - Mordedura.\nII - Inclusão de escória entre camadas.\nIII - Porosidade interna.\nIV - Deposição insuficiente.\nV - Sobreposição.\nQuais são as descontinuidades que devem ser detectadas no exame visual de soldas:",
     "alternativas": {
       "A": "II e III.",
       "B": "I, IV e V.",
@@ -497,7 +497,7 @@ export const prova03 = [
       "D": "III, IV e V.\nE) I e IV."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: I, IV e V. Conceito principal: em soldagem, a avaliacao visual foca processo e descontinuidades superficiais observaveis.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: I, IV e V. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -508,13 +508,13 @@ export const prova03 = [
     "numero": 28,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale falsanaou verdadeira na afirmativa abaixo:naos equipamentos elétricos utlizados em ensaio visual submarino devem ser\nhermeticamente fechados e as partes metálicas aterradas.",
+    "enunciado": "Assinale falsa ou verdadeira na afirmativa abaixo: os equipamentos elétricos utilizados em ensaio visual submarino devem ser hermeticamente fechados e as partes metálicas aterradas.",
     "alternativas": {
       "A": "Verdadeira.",
       "B": "Falsa."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Verdadeira. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Verdadeira. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -525,7 +525,7 @@ export const prova03 = [
     "numero": 29,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Glóbulos parcialmente incorporados à superfície da peça, provenientes de\nrespingos de metal líquido nas paredes do molde. Essa descontinuidade de\nfundidos é chamada de:",
+    "enunciado": "Glóbulos parcialmente incorporados à superfície da peça, provenientes de respingos de metal líquido nas paredes do molde. Essa descontinuidade de fundidos é chamada de:",
     "alternativas": {
       "A": "Inclusão.",
       "B": "Gota fria.",
@@ -533,7 +533,7 @@ export const prova03 = [
       "D": "Metal frio."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Gota fria. Conceito principal: a indicacao deve ser identificada, classificada e registrada com terminologia tecnica adequada.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Gota fria. Conceito principal: a indicação deve ser identificada, classificada e registrada com terminologia técnica adequada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -544,7 +544,7 @@ export const prova03 = [
     "numero": 30,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Na inspeção subaquática por ensaio visual podemos utilizar como meio\nauxiiar:",
+    "enunciado": "Na inspeção subaquática por ensaio visual podemos utilizar como meio auxiliar:",
     "alternativas": {
       "A": "Todas as alternativas estão corretas.",
       "B": "Moldes em epóxi.",
@@ -552,7 +552,7 @@ export const prova03 = [
       "D": "Trena.\nE) Máquina fotográfica."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Todas as alternativas estão corretas. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Todas as alternativas estão corretas. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -563,13 +563,13 @@ export const prova03 = [
     "numero": 31,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale verdadeironaou falso, em relação a afirmativa abaixo:\nEnsaio visual énao ensaio não destrutivo básico. Todosnaosnaoutros ensaio s não\ndestrutivos devem ser executados após um bom ensaio visual, que pode ser\nfeito, a vista desarmada, com auxílio de lupanaou com aparelhonaou instrumento\npara exame remoto.",
+    "enunciado": "Assinale verdadeiro ou falso, em relação à afirmativa abaixo:\nEnsaio visual é ensaio não destrutivo básico. Todos os outros ensaios não destrutivos devem ser executados após um bom ensaio visual, que pode ser feito à vista desarmada, com auxílio de lupa ou com aparelho ou instrumento para exame remoto.",
     "alternativas": {
       "A": "Falsa.",
       "B": "Verdadeiro."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Verdadeiro. Conceito principal: inspecao visual pode ser direta ou remota, conforme acesso e condicao de visibilidade.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Verdadeiro. Conceito principal: inspeção visual pode ser direta ou remota, conforme acesso e condição de visibilidade.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -580,7 +580,7 @@ export const prova03 = [
     "numero": 32,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale dentre as alternativas abaixo, a descontinuidade que não é\ndetectada na inspeção subaquática por ensaio visual:",
+    "enunciado": "Assinale dentre as alternativas abaixo, a descontinuidade que não é detectada na inspeção subaquática por ensaio visual:",
     "alternativas": {
       "A": "Dupla laminação.",
       "B": "Concavidade.",
@@ -588,7 +588,7 @@ export const prova03 = [
       "D": "Convexidade."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Dupla laminação. Conceito principal: a indicacao deve ser identificada, classificada e registrada com terminologia tecnica adequada.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Dupla laminação. Conceito principal: a indicação deve ser identificada, classificada e registrada com terminologia técnica adequada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -599,15 +599,15 @@ export const prova03 = [
     "numero": 33,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Depressão n a superfície da peça causada pornaondulaçõesnaou falhas na\nsuperfície do molde.",
+    "enunciado": "Depressão na superfície da peça causada por ondulações ou falhas na superfície do molde.",
     "alternativas": {
-      "A": "SegregaçãoI.",
+      "A": "Segregação.",
       "B": "Rechupe.",
       "C": "Queda de bolo.",
       "D": "Rabo de rato."
     },
     "correta": "D",
-    "explicacao": "A alternativa D esta correta porque responde ao enunciado com: Rabo de rato. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa D está correta porque responde ao enunciado com: Rabo de rato. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -618,7 +618,7 @@ export const prova03 = [
     "numero": 34,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Descontinuidade na superfície da peça, tendo a aparência de um vinco,\ncausada por movimentaçãonaou trinca do molde de areia.",
+    "enunciado": "Descontinuidade na superfície da peça, tendo a aparência de um vinco, causada por movimentação ou trinca do molde de areia.",
     "alternativas": {
       "A": "Poros.",
       "B": "Cavidade alongada.",
@@ -626,7 +626,7 @@ export const prova03 = [
       "D": "Veio."
     },
     "correta": "D",
-    "explicacao": "A alternativa D esta correta porque responde ao enunciado com: Veio. Conceito principal: a indicacao deve ser identificada, classificada e registrada com terminologia tecnica adequada.",
+    "explicacao": "A alternativa D está correta porque responde ao enunciado com: Veio. Conceito principal: a indicação deve ser identificada, classificada e registrada com terminologia técnica adequada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -637,7 +637,7 @@ export const prova03 = [
     "numero": 35,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Saliência superficial constituída de inclusão de areia, recoberta por fina\ncamada de metal poroso.",
+    "enunciado": "Saliência superficial constituída de inclusão de areia, recoberta por fina camada de metal poroso.",
     "alternativas": {
       "A": "Crosta.",
       "B": "Desencontro.",
@@ -645,7 +645,7 @@ export const prova03 = [
       "D": "Chupagem."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Crosta. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Crosta. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -656,7 +656,7 @@ export const prova03 = [
     "numero": 36,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A formação de bolhas associada ao enferrujamento de uma superfície\npintada deve ser relatada como:",
+    "enunciado": "A formação de bolhas associada ao enferrujamento de uma superfície pintada deve ser relatada como:",
     "alternativas": {
       "A": "Desfolhamento e corrosão.",
       "B": "Empolamento com enferrujamento.",
@@ -664,7 +664,7 @@ export const prova03 = [
       "D": "Crateramento e rachamento."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: Empolamento com enferrujamento. Conceito principal: e preciso identificar forma, extensao e intensidade da corrosao para classificar a indicacao.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: Empolamento com enferrujamento. Conceito principal: é preciso identificar forma, extensão e intensidade da corrosão para classificar a indicação.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -675,15 +675,15 @@ export const prova03 = [
     "numero": 37,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale a alternativa correta.",
+    "enunciado": "Assinale a alternativa correta:",
     "alternativas": {
-      "A": "A aferição de instrumentos é a comparação com seus respectivos padrões\npara conhecer seus erros.",
-      "B": "A aferição dos instrumentos deve ser feita todo dia no início das atividades\nde inspeção visual.",
-      "C": "A aferição de ins trumentos é uma atividade de verificação do funcionamento\ndos instrumentos.",
-      "D": "Os dados de ajuste dos instrumentos executado durante a aferição devem ser\nregistrados."
+      "A": "A aferição de instrumentos é a comparação com seus respectivos padrões para conhecer seus erros.",
+      "B": "A aferição dos instrumentos deve ser feita todo dia no início das atividades de inspeção visual.",
+      "C": "A aferição de instrumentos é uma atividade de verificação do funcionamento dos instrumentos.",
+      "D": "Os dados de ajuste dos instrumentos executados durante a aferição devem ser registrados."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: A aferição de instrumentos é a comparação com seus respectivos padrões para conhecer seus erros. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: A aferição de instrumentos é a comparação com seus respectivos padrões para conhecer seus erros. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -696,13 +696,13 @@ export const prova03 = [
     "tipo": "multipla_escolha",
     "enunciado": "Indique qual das afirmativas abaixo é verdadeira.",
     "alternativas": {
-      "A": "U ma das funções do revestimento no processo de soldagem com eletrodo\nrevestido, é proteger a alma do eletrodo.",
-      "B": "nao processo de soldagem Tignao calor necessár io para a fusão énaobtido\natravés do arco elétrico entre um eletrodo de tungstênio não consumível e a\npeça.",
-      "C": "O controle do ângulo de inclinação do eletrodo, no processo de soldagem\ncom eletrodo revestido não é uma variável importante nanaobtenção de uma so lda\nde boa qualidade.",
-      "D": "Utiizando-se corrente alternada no processo de soldagem com eletrodo\nrevestido, a polaridade é conhecida como alternada."
+      "A": "Uma das funções do revestimento no processo de soldagem com eletrodo revestido é proteger a alma do eletrodo.",
+      "B": "No processo de soldagem TIG o calor necessário para a fusão é obtido através do arco elétrico entre um eletrodo de tungstênio não consumível e a peça.",
+      "C": "O controle do ângulo de inclinação do eletrodo, no processo de soldagem com eletrodo revestido, não é uma variável importante na obtenção de uma solda de boa qualidade.",
+      "D": "Utilizando-se corrente alternada no processo de soldagem com eletrodo revestido, a polaridade é conhecida como alternada."
     },
     "correta": "B",
-    "explicacao": "A alternativa B esta correta porque responde ao enunciado com: N o processo de soldagem Tig o calor necessár io para a fusão é obtido através do arco elétrico entre um eletrodo de tungstênio não consumível e a peça. Conceito principal: em soldagem, a avaliacao visual foca processo e descontinuidades superficiais observaveis.",
+    "explicacao": "A alternativa B está correta porque responde ao enunciado com: No processo de soldagem TIG o calor necessário para a fusão é obtido através do arco elétrico entre um eletrodo de tungstênio não consumível e a peça. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -713,13 +713,13 @@ export const prova03 = [
     "numero": 39,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale verdadeiranaou falsa na afirmativa abaixo:\nDurantenao exame do leito marinho deve -se somente relatar a existência de\nsucata metálica.",
+    "enunciado": "Assinale verdadeira ou falsa na afirmativa abaixo:\nDurante o exame do leito marinho deve-se somente relatar a existência de sucata metálica.",
     "alternativas": {
       "A": "Falsa.",
       "B": "Verdadeira."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Falsa. Conceito principal: no leito marinho, erosao, assoreamento e vao livre impactam apoio e estabilidade.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Falsa. Conceito principal: no leito marinho, erosão, assoreamento e vão livre impactam apoio e estabilidade.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -730,15 +730,15 @@ export const prova03 = [
     "numero": 40,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale a alternativa correta.\n“os equipamentos elétricos utilizados em ensaio visual submarino.....:",
+    "enunciado": "Assinale a alternativa correta.\n“Os equipamentos elétricos utilizados em ensaio visual submarino.....”",
     "alternativas": {
       "A": "Devem ter proteção contra choques.",
       "B": "Devem possuir alta amperagem.",
-      "C": "As extremidades dos cabos de alimenta ção devem permitir a separação dos\nfios individuais.",
+      "C": "As extremidades dos cabos de alimentação devem permitir a separação dos fios individuais.",
       "D": "Podem ter punho metalizado."
     },
     "correta": "A",
-    "explicacao": "A alternativa A esta correta porque responde ao enunciado com: Devem ter proteção contra choques. Conceito principal: resposta mantida de forma conservadora com base no material teorico disponivel.",
+    "explicacao": "A alternativa A está correta porque responde ao enunciado com: Devem ter proteção contra choques. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   }

@@ -6,7 +6,7 @@ export const prova01 = [
     "numero": 1,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A intensidade luminosa das lanternas e holofotes utilizados na inspeção\nsubmarina normalmente é medida em:",
+    "enunciado": "A intensidade luminosa das lanternas e holofotes utilizados na inspeção submarina normalmente é medida em:",
     "alternativas": {
       "A": "Candela.",
       "B": "Velas.",
@@ -14,7 +14,7 @@ export const prova01 = [
       "D": "Watts."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: a deteccao visual depende de iluminacao suficiente e de angulo adequado para realcar indicacoes de superficie, representada por \"Lux.\". Conceito central: visibilidade e iluminacao.",
+    "explicacao": "Alternativa C correta: a detecção visual depende de iluminação suficiente e de ângulo adequado para realçar indicações de superfície, representada por \"Lux.\". Conceito central: visibilidade e iluminação.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -25,7 +25,7 @@ export const prova01 = [
     "numero": 2,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Asnaoperações de inspeção submarina ensaio visual, são cnaonduzidas com a\nutilização das seguintes técnicas:",
+    "enunciado": "As operações de inspeção submarina por ensaio visual são conduzidas com a utilização das seguintes técnicas:",
     "alternativas": {
       "A": "Ensaio visual direto para registros fotográficos.",
       "B": "Ensaio visual comparativo.",
@@ -33,7 +33,7 @@ export const prova01 = [
       "D": "Ensaio visual direto e remoto."
     },
     "correta": "D",
-    "explicacao": "Alternativa D correta: a tecnica correta distingue quando a avaliacao deve ser feita por observacao direta ou por recurso remoto, representada por \"Ensaio visual direto e remoto.\". Conceito central: metodo direto/remoto na inspecao visual.",
+    "explicacao": "Alternativa D correta: a técnica correta distingue quando a avaliação deve ser feita por observação direta ou por recurso remoto, representada por \"Ensaio visual direto e remoto.\". Conceito central: método direto/remoto na inspeção visual.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -44,15 +44,15 @@ export const prova01 = [
     "numero": 3,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A inspeção submarina, não tem como campo de aplicação nas plataformas de\naço verificar:",
+    "enunciado": "A inspeção submarina não tem como campo de aplicação, nas plataformas de aço, verificar:",
     "alternativas": {
       "A": "Riseres.",
       "B": "Membros estruturais.",
       "C": "Leito marinho.",
-      "D": "Catodos monitorados."
+      "D": "Cátodos monitorados."
     },
     "correta": "D",
-    "explicacao": "Alternativa D correta: a alternativa selecionada esta de acordo com o escopo de estruturas e elementos previstos para inspecao submarina, representada por \"Catodos monitorados.\". Conceito central: campo de aplicacao da inspecao submarina.",
+    "explicacao": "Alternativa D correta: a alternativa selecionada está de acordo com o escopo de estruturas e elementos previstos para inspeção submarina, representada por \"Cátodos monitorados.\". Conceito central: campo de aplicação da inspeção submarina.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -63,15 +63,15 @@ export const prova01 = [
     "numero": 4,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Indique qual das afirmativas abaixo e verdadeira:",
+    "enunciado": "Indique qual das afirmativas abaixo é verdadeira:",
     "alternativas": {
-      "A": "Uma das funções do revestimento, no processo de soldagem com eletrodo\nrevestido, é proteger a alma do eletrodo contranaoxidação e evitarnao sopro\nmagnético.",
-      "B": "No processo de soldagem Tignao calor necessário para a fusão énaobtido através\ndo arco elétrico entre um eletrodo de tungstênio não consumível.",
-      "C": "O controle do ângulo de inclinação do eletrodo, no processo de soldagem\ncom eletrodo revestido não é uma variável importante nanaobtenção de uma solda\nde boa qualidade.",
-      "D": "Utilizando -se corrente alternada no processo de soldagem com eletrodo\nrevestido, a polaridade é conhecida como alternada."
+      "A": "Uma das funções do revestimento, no processo de soldagem com eletrodo revestido, é proteger a alma do eletrodo contra oxidação e evitar o sopro magnético.",
+      "B": "No processo de soldagem TIG o calor necessário para a fusão é obtido através do arco elétrico entre um eletrodo de tungstênio não consumível.",
+      "C": "O controle do ângulo de inclinação do eletrodo, no processo de soldagem com eletrodo revestido, não é uma variável importante na obtenção de uma solda de boa qualidade.",
+      "D": "Utilizando-se corrente alternada no processo de soldagem com eletrodo revestido, a polaridade é conhecida como alternada."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a alternativa esta alinhada a terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"No processo de soldagem Tig o calor necessário p/ a fusão é obtido através do arco elétrico entre um eletrodo de tungstênio não consumível.\". Conceito central: inspecao de solda.",
+    "explicacao": "Alternativa B correta: a alternativa está alinhada à terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"No processo de soldagem TIG o calor necessário para a fusão é obtido através do arco elétrico entre um eletrodo de tungstênio não consumível.\". Conceito central: inspeção de solda.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -82,13 +82,13 @@ export const prova01 = [
     "numero": 5,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinalar verdadeiranaou falsa na afirmativa abaixo:\n“Durantenao exame do leito marinho deve -se somente relatar a existência de\nsucata metálica”.",
+    "enunciado": "Assinalar verdadeira ou falsa na afirmativa abaixo:\n“Durante o exame do leito marinho deve-se somente relatar a existência de sucata metálica”.",
     "alternativas": {
       "A": "Falsa.",
       "B": "Verdadeira."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: a alternativa selecionada esta de acordo com o escopo de estruturas e elementos previstos para inspecao submarina, representada por \"Falsa.\". Conceito central: campo de aplicacao da inspecao submarina.",
+    "explicacao": "Alternativa A correta: a alternativa selecionada está de acordo com o escopo de estruturas e elementos previstos para inspeção submarina, representada por \"Falsa.\". Conceito central: campo de aplicação da inspeção submarina.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -99,7 +99,7 @@ export const prova01 = [
     "numero": 6,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A deterioração manifestada na películanaou sob esta, sob a forma e coloração\ncaracterísticas do enferrujamento existente, acompanhadanaou não do\ndesprendimento localizado da película, chama-se:",
+    "enunciado": "A deterioração manifestada na película ou sob esta, sob a forma e coloração características do enferrujamento existente, acompanhada ou não do desprendimento localizado da película, chama-se:",
     "alternativas": {
       "A": "Destacamento e corrosão.",
       "B": "Escamação de tinta.",
@@ -107,7 +107,7 @@ export const prova01 = [
       "D": "Enferrujamento de tinta."
     },
     "correta": "D",
-    "explicacao": "Alternativa D correta: a classificacao correta considera morfologia e distribuicao da corrosao observada na superficie, representada por \"Enferrujamento de tinta.\". Conceito central: corrosao uniforme/alveolar/pitiforme.",
+    "explicacao": "Alternativa D correta: a classificação correta considera morfologia e distribuição da corrosão observada na superfície, representada por \"Enferrujamento de tinta.\". Conceito central: corrosão uniforme/alveolar/pitiforme.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -118,15 +118,15 @@ export const prova01 = [
     "numero": 7,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A inspeção do leito marinho, na região da jaqueta e proximidades,naobjetiva\nverificar:",
+    "enunciado": "A inspeção do leito marinho, na região da jaqueta e proximidades, objetiva verificar:",
     "alternativas": {
-      "A": "Anaocorrência de abrasãonaou assoreamento da estrutura.",
-      "B": "Anaocorrência de erosãonaou assoreamento da estrutura.",
+      "A": "A ocorrência de abrasão ou assoreamento da estrutura.",
+      "B": "A ocorrência de erosão ou assoreamento da estrutura.",
       "C": "Existem duas respostas certas.",
       "D": "A existência de sucatas."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: a alternativa selecionada esta de acordo com o escopo de estruturas e elementos previstos para inspecao submarina, representada por \"Existem duas respostas certas.\". Conceito central: campo de aplicacao da inspecao submarina.",
+    "explicacao": "Alternativa C correta: a alternativa selecionada está de acordo com o escopo de estruturas e elementos previstos para inspeção submarina, representada por \"Existem duas respostas certas.\". Conceito central: campo de aplicação da inspeção submarina.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -137,15 +137,15 @@ export const prova01 = [
     "numero": 8,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual das alternativas abaixo esta relacionada comnao vazio devido a contração\nna zona fundida:",
+    "enunciado": "Qual das alternativas abaixo está relacionada com o vazio devido à contração na zona fundida:",
     "alternativas": {
-      "A": "Trinca sobnao cordão.",
+      "A": "Trinca sob o cordão.",
       "B": "Rechupe de cratera.",
       "C": "Falta de fusão.",
       "D": "Mordedura."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a alternativa esta alinhada a terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Rechupe de cratera.\". Conceito central: inspecao de solda.",
+    "explicacao": "Alternativa B correta: a alternativa está alinhada à terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Rechupe de cratera.\". Conceito central: inspeção de solda.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -156,15 +156,15 @@ export const prova01 = [
     "numero": 9,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Na análise da deformação devida a soldagem de chapas em juntas de topo,\nsabe-se que:",
+    "enunciado": "Na análise da deformação devida à soldagem de chapas em juntas de topo, sabe-se que:",
     "alternativas": {
-      "A": "A contração transversal é diretamente proporcional a espessura da chapa.",
-      "B": "A contração transversal é inversamente proporcional a abertura de raiz da\njunta.",
-      "C": "A contração transversal é proporcional a área de seção transversal da zona\nfundida.",
-      "D": "A contração transversal impede na abertura de raiz da junta."
+      "A": "A contração transversal é diretamente proporcional à espessura da chapa.",
+      "B": "A contração transversal é inversamente proporcional à abertura de raiz da junta.",
+      "C": "A contração transversal é proporcional à área de seção transversal da zona fundida.",
+      "D": "A contração transversal impede a abertura de raiz da junta."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: a alternativa esta alinhada a terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"A contração transversal é diretamente proporcional a espessura da chapa.\". Conceito central: inspecao de solda.",
+    "explicacao": "Alternativa A correta: a alternativa está alinhada à terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"A contração transversal é diretamente proporcional à espessura da chapa.\". Conceito central: inspeção de solda.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -177,13 +177,13 @@ export const prova01 = [
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a alternativa correta:",
     "alternativas": {
-      "A": "Junta dissimilar é a junta soldada cuja composição química da zona fundida\ndifere significativamente do metal de base.",
-      "B": "Margem da solda é a junção entre a face da solda enao metal de base.",
+      "A": "Junta dissimilar é a junta soldada cuja composição química da zona fundida difere significativamente do metal de base.",
+      "B": "Margem da solda é a junção entre a face da solda e o metal de base.",
       "C": "Todas as afirmativas estão incorretas.",
-      "D": "Solda dissimilar é a solda executada entre peças de composiç ões químicas\nsignificativamente diferentes."
+      "D": "Solda dissimilar é a solda executada entre peças de composições químicas significativamente diferentes."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a alternativa esta alinhada a terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Margem da solda é a junção entre a face da solda e o metal de base.\". Conceito central: inspecao de solda.",
+    "explicacao": "Alternativa B correta: a alternativa está alinhada à terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Margem da solda é a junção entre a face da solda e o metal de base.\". Conceito central: inspeção de solda.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -194,13 +194,13 @@ export const prova01 = [
     "numero": 11,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinalar verdadeironaou falso abaixo: Quando se detecta corrosão em um\nmembro estrutural, deve -se classificar a corrosão e dimensionar por\namostragem a profundidade dos pites quando fornao caso:",
+    "enunciado": "Assinalar verdadeiro ou falso abaixo: Quando se detecta corrosão em um membro estrutural, deve-se classificar a corrosão e dimensionar, por amostragem, a profundidade dos pites quando for o caso:",
     "alternativas": {
       "A": "Verdadeira.",
       "B": "Falso."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: a classificacao correta considera morfologia e distribuicao da corrosao observada na superficie, representada por \"Verdadeira.\". Conceito central: corrosao uniforme/alveolar/pitiforme.",
+    "explicacao": "Alternativa A correta: a classificação correta considera morfologia e distribuição da corrosão observada na superfície, representada por \"Verdadeira.\". Conceito central: corrosão uniforme/alveolar/pitiforme.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -211,15 +211,15 @@ export const prova01 = [
     "numero": 12,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Indique entrenaos métodos citados abaixo qual não deve ser utilizado para a\npreparação de uma superfície que vai ser inspecionada visualmente:",
+    "enunciado": "Indique dentre os métodos citados abaixo qual não deve ser utilizado para a preparação de uma superfície que vai ser inspecionada visualmente:",
     "alternativas": {
-      "A": "Raspagem",
+      "A": "Raspagem.",
       "B": "Martelete hidráulico.",
       "C": "Hidrojateamento.",
       "D": "Escovamento."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Martelete hidráulico.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa B correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Martelete hidráulico.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -230,7 +230,7 @@ export const prova01 = [
     "numero": 13,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A quebra da película de tinta com penetração até a superfície da estrutura\npintada chama-se:",
+    "enunciado": "A quebra da película de tinta com penetração até a superfície da estrutura pintada chama-se:",
     "alternativas": {
       "A": "Fendilhamento.",
       "B": "Erosão.",
@@ -238,7 +238,7 @@ export const prova01 = [
       "D": "Escamação."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: o enunciado trata de degradacao de revestimento, que funciona como barreira protetora contra o meio, representada por \"Fendilhamento.\". Conceito central: revestimento protetor.",
+    "explicacao": "Alternativa A correta: o enunciado trata de degradação de revestimento, que funciona como barreira protetora contra o meio, representada por \"Fendilhamento.\". Conceito central: revestimento protetor.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -249,7 +249,7 @@ export const prova01 = [
     "numero": 14,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual dos instrumentos abaixo é empregado na verificação de espessura de\nincrustação:",
+    "enunciado": "Qual dos instrumentos abaixo é empregado na verificação de espessura de incrustação:",
     "alternativas": {
       "A": "Paquímetro.",
       "B": "Estilete graduado.",
@@ -257,7 +257,7 @@ export const prova01 = [
       "D": "Trena."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a resposta correta segue o criterio de preparacao e medicao em areas com incrustacao para nao mascarar defeitos, representada por \"Estilete graduado.\". Conceito central: incrustacoes e preparacao de superficie.",
+    "explicacao": "Alternativa B correta: a resposta correta segue o critério de preparação e medição em áreas com incrustação para não mascarar defeitos, representada por \"Estilete graduado.\". Conceito central: incrustações e preparação de superfície.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -268,7 +268,7 @@ export const prova01 = [
     "numero": 15,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Do ponto de vista de proteção contra choques,naos cabos de alimentação de\nequipamentos elétricos:",
+    "enunciado": "Do ponto de vista de proteção contra choques, nos cabos de alimentação de equipamentos elétricos:",
     "alternativas": {
       "A": "Nenhuma das respostas.",
       "B": "Não precisam de isolamento.",
@@ -276,7 +276,7 @@ export const prova01 = [
       "D": "Podem ter emendas."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Precisam ser protegidos contra danos mecânicos.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa C correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Precisam ser protegidos contra danos mecânicos.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -287,15 +287,15 @@ export const prova01 = [
     "numero": 16,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual das afirmativas abaixo, referentes ao processo de soldagem a arco\nsubmerso é falsa:",
+    "enunciado": "Qual das afirmativas abaixo, referentes ao processo de soldagem a arco submerso, é falsa:",
     "alternativas": {
-      "A": "Falta de penetração pode ser causada pelo al inhamento incorreto da máquina\nde solda com a junta a ser soldada.",
+      "A": "Falta de penetração pode ser causada pelo alinhamento incorreto da máquina de solda com a junta a ser soldada.",
       "B": "Mordeduras são causadas quando se processa muito rapidamente.",
       "C": "Porosidades são causadas por altos teores de manganês no arame e no fluxo.",
-      "D": "Falta de fusão podenaocorrer no caso da soldagem de uma peça espessa em\num único passe."
+      "D": "Falta de fusão pode ocorrer no caso da soldagem de uma peça espessa em um único passe."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: a deteccao visual depende de iluminacao suficiente e de angulo adequado para realcar indicacoes de superficie, representada por \"Porosidades são causadas por altos teores de manganês no arame e no fluxo.\". Conceito central: visibilidade e iluminacao.",
+    "explicacao": "Alternativa C correta: a detecção visual depende de iluminação suficiente e de ângulo adequado para realçar indicações de superfície, representada por \"Porosidades são causadas por altos teores de manganês no arame e no fluxo.\". Conceito central: visibilidade e iluminação.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -306,13 +306,13 @@ export const prova01 = [
     "numero": 17,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale falsanaou verdadeira:naos equipamentos elétricos utilizados em\nensaio visual submarino, devem ser hermeticamente fechados e as partes\nmetálicas aterradas.",
+    "enunciado": "Assinale falsa ou verdadeira: nos equipamentos elétricos utilizados em ensaio visual submarino, devem ser hermeticamente fechados e as partes metálicas aterradas.",
     "alternativas": {
       "A": "Falsa.",
       "B": "Verdadeira."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Verdadeira.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa B correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Verdadeira.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -325,13 +325,13 @@ export const prova01 = [
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a afirmativa errada:",
     "alternativas": {
-      "A": "Solda heterogênea é a solda cuja composição química da zona fundida difere\nsignificativamente do metal de base.",
+      "A": "Solda heterogênea é a solda cuja composição química da zona fundida difere significativamente do metal de base.",
       "B": "Solda autógena é a solda de fusão sem participação de metal de adição.",
       "C": "Solda de topo é a solda executada em junta de topo.",
-      "D": "Solda de aresta é a solda executada no bisel de um chanfro para reconstituir\na formanaoriginal da peça antes da execução do chanfro."
+      "D": "Solda de aresta é a solda executada no bisel de um chanfro para reconstituir a forma original da peça antes da execução do chanfro."
     },
     "correta": "D",
-    "explicacao": "Alternativa D correta: a alternativa esta alinhada a terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Solda de aresta é a solda executada no bisel de um chanfro para reconstituir a forma original da peça antes da execução do chanfro.\". Conceito central: inspecao de solda.",
+    "explicacao": "Alternativa D correta: a alternativa está alinhada à terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Solda de aresta é a solda executada no bisel de um chanfro para reconstituir a forma original da peça antes da execução do chanfro.\". Conceito central: inspeção de solda.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -342,13 +342,13 @@ export const prova01 = [
     "numero": 19,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale falsanaou verdadeira:naos equipamentos elétricos utilizados em\nensaio visual submarino quando ligados à r ede,nao circuito devera ser protegi do\ncontra curto circuito por fusíveis e disjuntores.",
+    "enunciado": "Assinale falsa ou verdadeira: nos equipamentos elétricos utilizados em ensaio visual submarino quando ligados à rede, o circuito deverá ser protegido contra curto-circuito por fusíveis e disjuntores.",
     "alternativas": {
       "A": "Falsa.",
       "B": "Verdadeira."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a alternativa esta alinhada a terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Verdadeira.\". Conceito central: inspecao de solda.",
+    "explicacao": "Alternativa B correta: a alternativa está alinhada à terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Verdadeira.\". Conceito central: inspeção de solda.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -359,16 +359,17 @@ export const prova01 = [
     "numero": 20,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale verdadeironaou falso em relação a afirmativa abaixo:nao ensaio visual\nénao ensaio não destrutivo de mais baixo custo, logo independe da experiência\npor parte do inspetor.",
+    "enunciado": "Assinale verdadeira ou falsa em relação à afirmativa abaixo: o ensaio visual é um ensaio não destrutivo de mais baixo custo, logo independe da experiência por parte do inspetor.",
     "alternativas": {
       "A": "Falsa.",
       "B": "Verdadeira."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Falsa.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa A correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Falsa.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
+
   {
     "id": "tev_p01_q21",
     "modulo": "teorica_geral_ev",
@@ -378,13 +379,13 @@ export const prova01 = [
     "tipo": "multipla_escolha",
     "enunciado": "Assinale a descrição correta de corrosão alveolar:",
     "alternativas": {
-      "A": "Cavidade na superfície metálica apresentandonao fundo arredondado e\nprofundidade geralmente maior quenao seu diâmetro.",
-      "B": "Cavidade na superfície metálica apresentandonao fundo arredondado e\nprofundidade geralmente menor que seu diâmetro.",
-      "C": "Cavidade na superfície metálica apresentandonao fundo em forma angular e\nprofundidade geralmente menor que seu diâmetro.",
-      "D": "Cavidade na superfície metálica apresentandonao fundo em forma angular e\nprofundidade igual ao seu diâmetro."
+      "A": "Cavidade na superfície metálica apresentando o fundo arredondado e profundidade geralmente maior que seu diâmetro.",
+      "B": "Cavidade na superfície metálica apresentando o fundo arredondado e profundidade geralmente menor que seu diâmetro.",
+      "C": "Cavidade na superfície metálica apresentando o fundo em forma angular e profundidade geralmente menor que seu diâmetro.",
+      "D": "Cavidade na superfície metálica apresentando o fundo em forma angular e profundidade igual ao seu diâmetro."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a classificacao correta considera morfologia e distribuicao da corrosao observada na superficie, representada por \"Cavidade na s uperfície metálica apresentando o fundo arredondado e profundidade geralmente menor que seu diâmetro.\". Conceito central: corrosao uniforme/alveolar/pitiforme.",
+    "explicacao": "Alternativa B correta: a classificação correta considera morfologia e distribuição da corrosão observada na superfície, representada por \"Cavidade na superfície metálica apresentando o fundo arredondado e profundidade geralmente menor que seu diâmetro.\". Conceito central: corrosão uniforme/alveolar/pitiforme.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -395,15 +396,15 @@ export const prova01 = [
     "numero": 22,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Na laminação de uma chapa de açonao metal ao passar entrenaos cilindros do\nlaminador, sofre deformação:",
+    "enunciado": "Na laminação de uma chapa de aço, o metal ao passar entre os cilindros do laminador sofre deformação:",
     "alternativas": {
-      "A": "Plástica, a espessura permanece enao comprimento e a largura são\naumentados.",
-      "B": "Plástica, e espessura é reduzida,nao comprimento e a largura são aumentados.",
-      "C": "Elástica, a espessura permanece constante enao compri mento e largura são\naumentados.",
-      "D": "Elástica, a espessura é reduzida,nao comprimento é aumentado e a largura\npermanece constante."
+      "A": "Plástica; a espessura permanece e o comprimento e a largura são aumentados.",
+      "B": "Plástica; a espessura é reduzida, o comprimento e a largura são aumentados.",
+      "C": "Elástica; a espessura permanece constante e o comprimento e a largura são aumentados.",
+      "D": "Elástica; a espessura é reduzida, o comprimento é aumentado e a largura permanece constante."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Plástica, e espessura é reduzida, o comprimento e a largura são aumentados.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa B correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Plástica; a espessura é reduzida, o comprimento e a largura são aumentados.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -422,7 +423,7 @@ export const prova01 = [
       "D": "Trinca na raiz."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: a alternativa esta alinhada a terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Trinca interlamelar.\". Conceito central: inspecao de solda.",
+    "explicacao": "Alternativa C correta: a alternativa está alinhada à terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Trinca interlamelar.\". Conceito central: inspeção de solda.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -433,7 +434,7 @@ export const prova01 = [
     "numero": 24,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale se as alternativas abaixo são verdadeiranaou falsas:\n1-Contraventamento énao elemento destinado a enrijecer a estrutura principal.\n2-A ramificação é uma das partes do contraventamento.",
+    "enunciado": "Assinale se as alternativas abaixo são verdadeiras ou falsas:\n1 - Contraventamento é um elemento destinado a enrijecer a estrutura principal.\n2 - A ramificação é uma das partes do contraventamento.",
     "alternativas": {
       "A": "1F;2F",
       "B": "1V;2V",
@@ -441,7 +442,7 @@ export const prova01 = [
       "D": "1V;2F"
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"1V;2V\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa B correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"1V;2V\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -452,7 +453,7 @@ export const prova01 = [
     "numero": 25,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Indique a descrição correspondente aos itens abaixo:\n1-Câmara de cabeça de poço.\n2-Monobóia de amarração.\n3-Religação (Tie back).\n4-Gabarito (Template).\n( ) Estrutura instalada no solo marinho que serve de guia para perfuração de\npoços.\n( ) Sistema de amarração por ponto úniconaou pela proa de navio tanque para\ncarganaou descarga.\n( ) Vasos que ficam no fundo do mar e contém as arvores de natal.",
+    "enunciado": "Indique a descrição correspondente aos itens abaixo:\n1 - Câmara de cabeça de poço.\n2 - Monobóia de amarração.\n3 - Religação (Tie back).\n4 - Gabarito (Template).\n( ) Estrutura instalada no solo marinho que serve de guia para perfuração de poços.\n( ) Sistema de amarração por ponto único ou pela proa de navio-tanque para carga ou descarga.\n( ) Vasos que ficam no fundo do mar e contêm as árvores de natal.",
     "alternativas": {
       "A": "4;2;1",
       "B": "1;2;4",
@@ -460,7 +461,7 @@ export const prova01 = [
       "D": "Nenhuma das respostas."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"4;2;1\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa A correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"4;2;1\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -471,15 +472,15 @@ export const prova01 = [
     "numero": 26,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinale dentre a s alternativas abaixo, uma limitação do ensaio visual em\ncomparação anaoutros ensaios.",
+    "enunciado": "Assinale dentre as alternativas abaixo uma limitação do ensaio visual em comparação a outros ensaios.",
     "alternativas": {
-      "A": "Pode ser executado em juntas de geometria complexa, como nas de\nestruturas tubulares.",
-      "B": "É limitado a materiais magnéticos e não magnéticos, permite locar e\ndimensionar as descontinuidades internas no metal de base.",
-      "C": "É limitado a detecção de descontinuidades superficiais.",
-      "D": "Depende grandemente da experiência e conhecimento de soldagem por parte\ndo inspetor."
+      "A": "Pode ser executado em juntas de geometria complexa, como nas de estruturas tubulares.",
+      "B": "É limitado a materiais magnéticos e não magnéticos, permite locar e dimensionar as descontinuidades internas no metal de base.",
+      "C": "É limitado à detecção de descontinuidades superficiais.",
+      "D": "Depende grandemente da experiência e conhecimento de soldagem por parte do inspetor."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"É limitado a detecção de descontinuidades superficiais.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa C correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"É limitado à detecção de descontinuidades superficiais.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -490,7 +491,7 @@ export const prova01 = [
     "numero": 27,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Como deve ser descritonao estado de corrosão de uma plat aforma que após a\npreparação da superfície apresenta algumas cavidades de angulo agudo\nespalhadas aleatoriamente:",
+    "enunciado": "Como deve ser descrito o estado de corrosão de uma plataforma que, após a preparação da superfície, apresenta algumas cavidades de ângulo agudo espalhadas aleatoriamente:",
     "alternativas": {
       "A": "Corrosão alveolar severa aleatória.",
       "B": "Corrosão alveolar leve dispersa.",
@@ -498,7 +499,7 @@ export const prova01 = [
       "D": "Corrosão por pites leve dispersa."
     },
     "correta": "D",
-    "explicacao": "Alternativa D correta: a classificacao correta considera morfologia e distribuicao da corrosao observada na superficie, representada por \"Corrosão por pites leve dispersa.\". Conceito central: corrosao uniforme/alveolar/pitiforme.",
+    "explicacao": "Alternativa D correta: a classificação correta considera morfologia e distribuição da corrosão observada na superfície, representada por \"Corrosão por pites leve dispersa.\". Conceito central: corrosão uniforme/alveolar/pitiforme.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -509,15 +510,15 @@ export const prova01 = [
     "numero": 28,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "No ensaio visual, a classificação de corrosão quanto a forma da mesma pode\nser:",
+    "enunciado": "No ensaio visual, a classificação de corrosão quanto à forma da mesma pode ser:",
     "alternativas": {
-      "A": "Critica, moderadanaou superficial.",
+      "A": "Crítica, moderada ou superficial.",
       "B": "Alveolar, pitiforme, uniforme.",
       "C": "Leve, média, severa.",
       "D": "Localizada, generalizada."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a classificacao correta considera morfologia e distribuicao da corrosao observada na superficie, representada por \"Alveolar, pitiforme, uniforme.\". Conceito central: corrosao uniforme/alveolar/pitiforme.",
+    "explicacao": "Alternativa B correta: a classificação correta considera morfologia e distribuição da corrosão observada na superfície, representada por \"Alveolar, pitiforme, uniforme.\". Conceito central: corrosão uniforme/alveolar/pitiforme.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -528,7 +529,7 @@ export const prova01 = [
     "numero": 29,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Indique a associação correta entre:\n1 – Medição.\n2 – Iluminação.\n3 – Registro.\n4 – Qualificação de procedimento de inspecao visual.\n5 – Inspetor.\nA – Máquina fotográfica.\nB – Grau de resolução da imagem.\nC – Acuidade visual.\nD – Fita métrica.\nE – Luximetro.",
+    "enunciado": "Indique a associação correta entre:\n1 – Medição.\n2 – Iluminação.\n3 – Registro.\n4 – Qualificação de procedimento de inspeção visual.\n5 – Inspetor.\nA – Máquina fotográfica.\nB – Grau de resolução da imagem.\nC – Acuidade visual.\nD – Fita métrica.\nE – Luxímetro.",
     "alternativas": {
       "A": "1E-2A-3B-4D-5C",
       "B": "1C-2B-3E-4D-5A",
@@ -536,7 +537,7 @@ export const prova01 = [
       "D": "1B-2E-3C-4A-5D\nE) 1E-2A-3B-4C-5D"
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: a deteccao visual depende de iluminacao suficiente e de angulo adequado para realcar indicacoes de superficie, representada por \"1D-2E-3A-4B-5C\". Conceito central: visibilidade e iluminacao.",
+    "explicacao": "Alternativa C correta: a detecção visual depende de iluminação suficiente e de ângulo adequado para realçar indicações de superfície, representada por \"1D-2E-3A-4B-5C\". Conceito central: visibilidade e iluminação.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -547,7 +548,7 @@ export const prova01 = [
     "numero": 30,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Na inspeção submarina, ensaio visual, podemos utilizar como meios\nauxiliares:",
+    "enunciado": "Na inspeção submarina, ensaio visual, podemos utilizar como meios auxiliares:",
     "alternativas": {
       "A": "Moldes em epóxi.",
       "B": "Trena.",
@@ -555,7 +556,7 @@ export const prova01 = [
       "D": "Medidor de pites.\nE) Máquina fotográfica."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Todas as alternativas estão certas.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa C correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Todas as alternativas estão certas.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -566,13 +567,13 @@ export const prova01 = [
     "numero": 31,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinalar verdadeiranaou falsa:\nQuando se deseja realçar imperfeição superficiais, a incidência do feixe\nluminoso deve sernaoblíqua em relação a superfície para que se notenao efeito de\nluz e sombra.",
+    "enunciado": "Assinalar verdadeira ou falsa:\nQuando se deseja realçar imperfeições superficiais, a incidência do feixe luminoso deve ser oblíqua em relação à superfície para que se note o efeito de luz e sombra.",
     "alternativas": {
       "A": "Falsa.",
       "B": "Verdadeira."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a deteccao visual depende de iluminacao suficiente e de angulo adequado para realcar indicacoes de superficie, representada por \"Verdadeira.\". Conceito central: visibilidade e iluminacao.",
+    "explicacao": "Alternativa B correta: a detecção visual depende de iluminação suficiente e de ângulo adequado para realçar indicações de superfície, representada por \"Verdadeira.\". Conceito central: visibilidade e iluminação.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -591,7 +592,7 @@ export const prova01 = [
       "D": "Visibilidade da água do mar de 5 metros."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: a deteccao visual depende de iluminacao suficiente e de angulo adequado para realcar indicacoes de superficie, representada por \"Luminosidade de 100 lux.\". Conceito central: visibilidade e iluminacao.",
+    "explicacao": "Alternativa A correta: a detecção visual depende de iluminação suficiente e de ângulo adequado para realçar indicações de superfície, representada por \"Luminosidade de 100 lux.\". Conceito central: visibilidade e iluminação.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -602,13 +603,13 @@ export const prova01 = [
     "numero": 33,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinalar falsanaou verdadeira: Trinca é uma d escontinuidade linear, podendo\nse a presentar na superfície, que não põe em risco a estrutura.",
+    "enunciado": "Assinalar verdadeira ou falsa: Trinca é uma descontinuidade linear, podendo se apresentar na superfície, que não põe em risco a estrutura.",
     "alternativas": {
       "A": "Verdadeira.",
       "B": "Falsa."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a alternativa esta alinhada a terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Falsa.\". Conceito central: inspecao de solda.",
+    "explicacao": "Alternativa B correta: a alternativa está alinhada à terminologia de processo e descontinuidades visuais em juntas soldadas, representada por \"Falsa.\". Conceito central: inspeção de solda.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -624,10 +625,10 @@ export const prova01 = [
       "A": "Subaquecimento do material.",
       "B": "Rebarba excessiva.",
       "C": "Dobras de metal comprimidas contra superfície da peça.",
-      "D": "Carepas denaoxido incrustadas profundamente na superfície."
+      "D": "Carepas de óxido incrustadas profundamente na superfície."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Dobras de metal comprimidas contra superfície da peça.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa C correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Dobras de metal comprimidas contra superfície da peça.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -638,7 +639,7 @@ export const prova01 = [
     "numero": 35,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual dos instrumentos abaixo, empregado na inspeção visual subaquática,\ndeve sofrer uma aferição periódica por instituições credenciadas.",
+    "enunciado": "Qual dos instrumentos abaixo, empregado na inspeção visual subaquática, deve sofrer uma aferição periódica por instituições credenciadas.",
     "alternativas": {
       "A": "Lanterna.",
       "B": "Holofote.",
@@ -646,7 +647,7 @@ export const prova01 = [
       "D": "Máquina fotográfica.\nE) Lupa."
     },
     "correta": "C",
-    "explicacao": "Alternativa C correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Trena.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa C correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Trena.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -660,12 +661,12 @@ export const prova01 = [
     "enunciado": "Assinale a afirmativa correta:",
     "alternativas": {
       "A": "Nenhuma resposta é correta.",
-      "B": "Camada énao depósitonaobtido com um único passe.",
-      "C": "Porosidade alongada é causada pelo eletrodo de tugstênio.",
-      "D": "Zona afetada termicamente é a porção do metal de base que sofreu apenas\nfusão parcial durante a soldagem."
+      "B": "Camada é um depósito obtido com um único passe.",
+      "C": "Porosidade alongada é causada pelo eletrodo de tungstênio.",
+      "D": "Zona afetada termicamente é a porção do metal de base que sofreu apenas fusão parcial durante a soldagem."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"Nenhuma resposta é correta.\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa A correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"Nenhuma resposta é correta.\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -684,7 +685,7 @@ export const prova01 = [
       "D": "1;4\nE) 1;3;4"
     },
     "correta": "D",
-    "explicacao": "Alternativa D correta: o item correto e o que preserva a definicao tecnica usada na pratica de inspecao visual subaquatica, representada por \"1;4 E) 1;3;4\". Conceito central: interpretacao tecnica da questao.",
+    "explicacao": "Alternativa D correta: o item correto é o que preserva a definição técnica usada na prática de inspeção visual subaquática, representada por \"1;4 E) 1;3;4\". Conceito central: interpretação técnica da questão.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -695,13 +696,13 @@ export const prova01 = [
     "numero": 38,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Assinalar se a afirmativa é verdadeiranaou falsa: A inspeção do leito marinho\ndeve se prender somente a região interna da jaqueta:",
+    "enunciado": "Assinalar se a afirmativa é verdadeira ou falsa: A inspeção do leito marinho deve se prender somente à região interna da jaqueta:",
     "alternativas": {
       "A": "Verdadeira.",
       "B": "Falsa."
     },
     "correta": "B",
-    "explicacao": "Alternativa B correta: a alternativa selecionada esta de acordo com o escopo de estruturas e elementos previstos para inspecao submarina, representada por \"Falsa.\". Conceito central: campo de aplicacao da inspecao submarina.",
+    "explicacao": "Alternativa B correta: a alternativa selecionada está de acordo com o escopo de estruturas e elementos previstos para inspeção submarina, representada por \"Falsa.\". Conceito central: campo de aplicação da inspeção submarina.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -712,13 +713,13 @@ export const prova01 = [
     "numero": 39,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Diga se a afirmativa abaixo é verdadeiranaou fal sa: A definição de\ncoletor(manifold), corresponde a um conjunto de tubo interligado diversas\nlinhas de chegada com umanaou mais saídas, contendo válvulas e instrumentos\npara controle do fluxo de fluídos.",
+    "enunciado": "Diga se a afirmativa abaixo é verdadeira ou falsa: A definição de coletor (manifold) corresponde a um conjunto de tubo interligado a diversas linhas de chegada, com uma ou mais saídas, contendo válvulas e instrumentos para controle do fluxo de fluidos.",
     "alternativas": {
       "A": "Verdadeira.",
       "B": "Falsa."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: a deteccao visual depende de iluminacao suficiente e de angulo adequado para realcar indicacoes de superficie, representada por \"Verdadeira.\". Conceito central: visibilidade e iluminacao.",
+    "explicacao": "Alternativa A correta: a detecção visual depende de iluminação suficiente e de ângulo adequado para realçar indicações de superfície, representada por \"Verdadeira.\". Conceito central: visibilidade e iluminação.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   },
@@ -729,7 +730,7 @@ export const prova01 = [
     "numero": 40,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Qual das alternativas abaixo apresentanaos instrumentos normalmente usados\nna inspeção visual submarina de anodos:",
+    "enunciado": "Qual das alternativas abaixo apresenta os instrumentos normalmente usados na inspeção visual submarina de ânodos:",
     "alternativas": {
       "A": "Raspadeira manual, escova manual, trena e estilete graduado.",
       "B": "Régua, lanterna e estilete graduado.",
@@ -737,8 +738,8 @@ export const prova01 = [
       "D": "Odômetro, estilete graduado e raspadeira."
     },
     "correta": "A",
-    "explicacao": "Alternativa A correta: a resposta correta segue o criterio de preparacao e medicao em areas com incrustacao para nao mascarar defeitos, representada por \"Raspadeira manual, escova manual, trena e estilete graduado.\". Conceito central: incrustacoes e preparacao de superficie.",
+    "explicacao": "Alternativa A correta: a resposta correta segue o critério de preparação e medição em áreas com incrustação para não mascarar defeitos, representada por \"Raspadeira manual, escova manual, trena e estilete graduado.\". Conceito central: incrustações e preparação de superfície.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
     "imagem": null
   }
-];
+]
