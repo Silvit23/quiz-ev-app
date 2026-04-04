@@ -215,8 +215,11 @@ export const prova06 = [
     "numero": 12,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "A definição de TDP (touch down point) - Região de um duto em catenária cujo contato com o leito marinho varia em função dos movimentos da plataforma a que está conectado.\nA- Falso.\nB- Verdadeiro.",
-    "alternativas": {},
+    "enunciado": "A definição de TDP (touch down point) - Região de um duto em catenária cujo contato com o leito marinho varia em função dos movimentos da plataforma a que está conectado.",
+    "alternativas": {
+      "A": "Falso.",
+      "B": "Verdadeiro."
+    },
     "correta": "B",
     "explicacao": "Marca-se B porque a apostila delimita onde a inspeção submarina se aplica e quais elementos entram no escopo de verificação. Conceito central: campo de aplicação da inspeção submarina. Nesta questão, a chave é a correspondência com a definição técnica aplicada.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",

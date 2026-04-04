@@ -201,7 +201,8 @@ export const prova04 = [
       "A": "Gretamento e bolhas.",
       "B": "Descolamento, rachamento e empolamento.",
       "C": "Corrosão biológica e eletroquímica.",
-      "D": "Escamação e casca de laranja.\nE) Descoloração e empolamento com ferrugem."
+      "D": "Escamação e casca de laranja.",
+      "E": "Descoloração e empolamento com ferrugem."
     },
     "correta": "B",
     "explicacao": "A alternativa B está correta porque responde ao enunciado com: Descolamento, rachamento e empolamento. Conceito principal: revestimento atua como barreira contra corrosão e seu estado deve ser registrado.",
@@ -234,8 +235,17 @@ export const prova04 = [
     "numero": 13,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Indique a descrição correspondente aos itens abaixo:\n1- Câmara de cabeça de poço (wellhead).\n2- Monobóia de amarração.\n3- Religação (tie back).\n4- Gabarito (template).\n( ) Estrutura instalada no solo marinho que serve de guia para perfuração de poços.\n( ) Sistema de amarração por ponto único ou pela proa do navio-tanque para carga ou descarga.\n( ) Vasos que ficam no fundo do mar e contêm as árvores de natal.",
-    "alternativas": {
+    "enunciado": `Indique a descrição correspondente aos itens abaixo:
+1- Câmara de cabeça de poço (wellhead).
+2- Monobóia de amarração.
+3- Religação (tie back).
+4- Gabarito (template).
+( ) Estrutura instalada no solo marinho que serve de guia para perfuração de poços.
+( ) Sistema de amarração por ponto único ou pela proa do navio-tanque para carga ou descarga.
+( ) Vasos que ficam no fundo do mar e contêm as árvores de natal.`,
+"alternativas": 
+{
+
       "A": "4, 2 e 1.",
       "B": "1, 2 e 4.",
       "C": "1, 3 e 4.",
@@ -258,7 +268,8 @@ export const prova04 = [
       "A": "100 lux.",
       "B": "2000 lux.",
       "C": "600 lux.",
-      "D": "1300 lux.\nE) 1500 lux."
+      "D": "1300 lux.",
+      "E": "1500 lux."
     },
     "correta": "C",
     "explicacao": "A alternativa C está correta porque responde ao enunciado com: 600 lux. Conceito principal: iluminação e visibilidade adequadas são requisitos para avaliação visual confiável.",

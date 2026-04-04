@@ -689,8 +689,11 @@ export const prova05 = [
     "numero": 38,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Identifique se a afirmativa a seguir é verdadeira ou falsa: \"Colapso hidrostático é a deformação elástica da seção transversal de um componente tubular causada pela ação da pressão hidrostática externa\".\nA- Verdadeira.\nB- Falsa.",
-    "alternativas": {},
+    "enunciado": "Identifique se a afirmativa a seguir é verdadeira ou falsa: \"Colapso hidrostático é a deformação elástica da seção transversal de um componente tubular causada pela ação da pressão hidrostática externa.",
+    "alternativas": {
+      "A": "Verdadeira.",
+      "B": "Falsa."
+    },
     "correta": "B",
     "explicacao": "A alternativa B está correta por estar alinhada ao enunciado técnico. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",

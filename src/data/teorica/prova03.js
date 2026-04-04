@@ -361,7 +361,8 @@ export const prova03 = [
       "A": "Lanterna.",
       "B": "Holofote.",
       "C": "Fita métrica.",
-      "D": "Máquina fotográfica.\nE) Lupa."
+      "D": "Máquina fotográfica.",
+      "E": "Lupa."
     },
     "correta": "C",
     "explicacao": "A alternativa C está correta porque responde ao enunciado com: Fita métrica. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
@@ -380,7 +381,8 @@ export const prova03 = [
       "A": "Nenhuma das respostas é correta.",
       "B": "Camada é o depósito obtido com um único passe.",
       "C": "Porosidade alongada é causada pelo eletrodo de tungstênio.",
-      "D": "Zona afetada termicamente é a porção do metal de base que sofreu apenas fusão parcial durante a soldagem.\nE) Solda de aresta é sinônimo de solda em ângulo."
+      "D": "Zona afetada termicamente é a porção do metal de base que sofreu apenas fusão parcial durante a soldagem.",
+      "E": "Solda de aresta é sinônimo de solda em ângulo."
     },
     "correta": "A",
     "explicacao": "A alternativa A está correta porque responde ao enunciado com: Nenhuma das respostas é correta. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",
@@ -483,24 +485,34 @@ export const prova03 = [
     "imagem": null
   },
   {
-    "id": "tev_p03_q27",
-    "modulo": "teorica_geral_ev",
-    "prova": "Prova 03",
-    "numero": 27,
-    "tema": "",
-    "tipo": "multipla_escolha",
-    "enunciado": "Das descontinuidades abaixo:\nI - Mordedura.\nII - Inclusão de escória entre camadas.\nIII - Porosidade interna.\nIV - Deposição insuficiente.\nV - Sobreposição.\nQuais são as descontinuidades que devem ser detectadas no exame visual de soldas:",
-    "alternativas": {
-      "A": "II e III.",
-      "B": "I, IV e V.",
-      "C": "I e V.",
-      "D": "III, IV e V.\nE) I e IV."
-    },
-    "correta": "B",
-    "explicacao": "A alternativa B está correta porque responde ao enunciado com: I, IV e V. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
-    "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
-    "imagem": null
+  id: "tev_p03_q27",
+  modulo: "teorica_geral_ev",
+  prova: "Prova 03",
+  numero: 27,
+  tema: "",
+  tipo: "multipla_escolha",
+  enunciado:
+    "Das descontinuidades abaixo:\n" +
+    "I - Mordedura.\n" +
+    "II - Inclusão de escória entre camadas.\n" +
+    "III - Porosidade interna.\n" +
+    "IV - Deposição insuficiente.\n" +
+    "V - Sobreposição.\n" +
+    "Quais são as descontinuidades que devem ser detectadas no exame visual de soldas:",
+  alternativas: {
+    A: "II e III.",
+    B: "I, IV e V.",
+    C: "I e V.",
+    D: "III, IV e V.",
+    E: "I e IV."
   },
+  correta: "B",
+  explicacao:
+    "A alternativa B está correta porque responde ao enunciado com: I, IV e V. Conceito principal: em soldagem, a avaliação visual foca processo e descontinuidades superficiais observáveis.",
+  fonte: "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
+  imagem: null
+},
+
   {
     "id": "tev_p03_q28",
     "modulo": "teorica_geral_ev",
@@ -549,7 +561,8 @@ export const prova03 = [
       "A": "Todas as alternativas estão corretas.",
       "B": "Moldes em epóxi.",
       "C": "Medidor de pites.",
-      "D": "Trena.\nE) Máquina fotográfica."
+      "D": "Trena.",
+      "E": "Máquina fotográfica."
     },
     "correta": "A",
     "explicacao": "A alternativa A está correta porque responde ao enunciado com: Todas as alternativas estão corretas. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",

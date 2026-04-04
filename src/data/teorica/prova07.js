@@ -234,8 +234,11 @@ export const prova07 = [
     "numero": 13,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Riser é trecho vertical de duto que interliga o trecho assentado no leito marinho ao trecho instalado na plataforma.\nA- Falso.\nB- Verdadeiro.",
-    "alternativas": {},
+    "enunciado": "Riser é trecho vertical de duto que interliga o trecho assentado no leito marinho ao trecho instalado na plataforma.", 
+        "alternativas": {
+        "A": "Falso.", 
+        "B": "Verdadeiro."
+        },
     "correta": "B",
     "explicacao": "A alternativa B está correta por estar alinhada ao enunciado técnico. Conceito principal: a inspeção submarina se aplica a estruturas, linhas e componentes previstos na base teórica.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
