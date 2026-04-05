@@ -688,8 +688,14 @@ export const prova07 = [
     "numero": 37,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "Durante a inspeção subaquática de um componente estrutural de uma instalação marítima, o inspetor visual abriu várias janelas de inspeção na incrustação marinha, procurando com isso a detecção de qualquer não conformidade. Essa técnica de inspeção caracteriza a:\nA - Inspeção visual localizada\nB- Inspeção visual detalhada\nC- Inspeção visual específica\nD- Inspeção visual geral",
-    "alternativas": {},
+    "enunciado": "Durante a inspeção subaquática de um componente estrutural de uma instalação marítima, o inspetor visual abriu várias janelas de inspeção na incrustação marinha, procurando com isso a detecção de qualquer não conformidade. Essa técnica de inspeção caracteriza a:",
+    "alternativas": 
+    {
+      "A": "Inspeção visual localizada",
+    "B": "Inspeção visual detalhada.",
+    "C": "Inspeção visual específica.",
+    "D": "Inspeção visual geral."
+    },
     "correta": "D",
     "explicacao": "A alternativa D está correta por estar alinhada ao enunciado técnico. Conceito principal: a inspeção submarina se aplica a estruturas, linhas e componentes previstos na base teórica.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
