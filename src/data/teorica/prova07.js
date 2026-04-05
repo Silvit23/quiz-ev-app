@@ -729,7 +729,8 @@ export const prova07 = [
     "alternativas": {
       "A": "Desgaste, fixação, seção, incrustração, danos e sucatas.",
       "B": "Desgaste, fixação, seção.",
-      "C": "Relata a presença de uma haste de ânodo e verifica a sua fixação e integridade.\nE) Desgaste generalizado severo."
+      "C": "Relata a presença de uma haste de ânodo e verifica a sua fixação e integridade.",
+      "E": "Desgaste generalizado severo."
     },
     "correta": "C",
     "explicacao": "A alternativa C está correta porque responde ao enunciado com: Relata a presença de uma haste de ânodo e verifica a sua fixação e integridade. E) Desgaste generalizado severo. Conceito principal: a inspeção submarina se aplica a estruturas, linhas e componentes previstos na base teórica.",
