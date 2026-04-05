@@ -709,7 +709,9 @@ export const prova05 = [
     "enunciado": "Assinale dentre as alternativas abaixo, uma limitação do ensaio visual em comparação a outros ensaios:",
     "alternativas": {
       "A": "Depende grandemente da experiência e conhecimento de soldagem por parte do inspetor.",
-      "B": "É limitado a materiais magnéticos e não magnéticos.\nC- É limitado à detecção de descontinuidades superficiais.\nD- Pode ser executado em juntas de geometria complexa, como nós de estruturas tubulares."
+      "B": "É limitado a materiais magnéticos e não magnéticos.",
+      "C": "É limitado à detecção de descontinuidades superficiais.",
+      "D": "Pode ser executado em juntas de geometria complexa, como nós de estruturas tubulares."
     },
     "correta": "C",
     "explicacao": "A alternativa C está correta por estar alinhada ao enunciado técnico. Conceito principal: resposta mantida de forma conservadora com base no material teórico disponível.",

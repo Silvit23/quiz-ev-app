@@ -237,7 +237,7 @@ export const prova07 = [
     "enunciado": "Riser é trecho vertical de duto que interliga o trecho assentado no leito marinho ao trecho instalado na plataforma.", 
         "alternativas": {
         "A": "Falso.", 
-        "B": "Verdadeiro."
+        "B": "Verdadeiro.",
         },
     "correta": "B",
     "explicacao": "A alternativa B está correta por estar alinhada ao enunciado técnico. Conceito principal: a inspeção submarina se aplica a estruturas, linhas e componentes previstos na base teórica.",
@@ -270,8 +270,13 @@ export const prova07 = [
     "numero": 15,
     "tema": "",
     "tipo": "multipla_escolha",
-    "enunciado": "O que significa o termo “as laid”:\nA- Ligação flangeada unindo os tramos dinâmico (riser) e estático (flowline) do duto.\nB- Diâmetro externo.\nC- Filmagem das linhas lançadas no fundo do mar, mostrando as rotas traçadas.\nD- Valor que expressa a potência do flash.",
-    "alternativas": {},
+    "enunciado": "O que significa o termo “as laid”?",
+    "alternativas": {
+      "A": "Ligação flangeada unindo os tramos dinâmico (riser) e estático (flowline) do duto.",
+      "B": "Diâmetro externo.",
+      "C": "Filmagem das linhas lançadas no fundo do mar, mostrando as rotas traçadas.",
+      "D": "Valor que expressa a potência do flash."
+    },
     "correta": "C",
     "explicacao": "A alternativa C está correta por estar alinhada ao enunciado técnico. Conceito principal: a inspeção submarina se aplica a estruturas, linhas e componentes previstos na base teórica.",
     "fonte": "Simulados Prova SM-EV Teórica Geral Mar 2026.pdf",
